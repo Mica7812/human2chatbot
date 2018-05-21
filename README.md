@@ -50,7 +50,7 @@ Pour générer des règles avec les prototypes 1, 3 et 4, il suffit d'exécuter 
 python3 fichier_du_prototype.py thème dossier_du_corpus_ubuntu
 ```
 
-Le thème est un mot uniquement à choisir (par exemple : *nvidia*)
+Le thème est un mot unique à choisir (par exemple : *nvidia*)
 
 ### Prototype 2
 
