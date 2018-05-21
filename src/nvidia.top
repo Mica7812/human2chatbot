@@ -1,0 +1,1763 @@
+TOPIC: ~nvidia repeat keep [told switching ati zombie staft somewhere rpm resolutions phrase name drive unable stored google-linux take probably reply web q=ati+mobility+7000+ubuntu repo usage tablet question went teeth besides hope hehehe tho visual lba seemingly folders yeah.. well-supported utility figured |grep fglrx him/her builddpkg menus information manager logfilename ya yay oops perfectly writing poke window expected recent said blade thing leadtek whole killall emerald change luck zattoo restarting send shot nv ideas ignores lmao replace wud nvidia-xconfig starting radeon binry still high gentoo marmelade nvidia-current wanting searching onboard tis xorg.log machine soported period nvidia-kernel-common shop agp use whatever tarball else scratch deb knew url xserver u soundcard older eror uninstall sh mine zsnes tell touble old spits strange tv primary price cheers process state width small unetbootin suggesting vulgaritys hav manually porject fix system- xorg ext2 w shell user test o.o sorry work-around sec issues particular yep within webid=675071 wheezy unencypt wine way sorta unrecognized defauls great render tfts root glxgears thank bgdesklets text utorrent remove vga version lie nvidia-drivers video xrandr shops week 1280x1024 nvidia-settings brand mesa-utils worked.. valuable redering buildpkg likely pain nv18 adjust sounds logo nething text-editor nologo wacom pictures mx past various ctrl+alt+f2 prop hurts inputdevice rendering corporation slower x control models pci-e telling understand sir rightz/ prices normal m8 identifier update update-manager uninstallation ever updated windows-key wobbly tech including malformed specs solution tool `glxgears` stupidity rebooted syslog lines proposed yesterday recommended opening repositories runs effects second smp unisntalling wow fx5500 binary xorg.conf anyways vid gforce screwed go whenever videocard livecd upgrading dropping read reboot ahead ha script gui unfortunetly ls link whirl xserver-xorg tar feel devices months outdated f9 simple better ubotu supposed without edgy md5sum pastebinit upgrades brows trying kudos monitors presume nevermind sudo sync feisty tonight rest relatively webite thinking fx5200 section steam friggin enuf tree ubuntu-desktop nvidias ready now.. lspci nvidia-experimental-304 pseudo work recover suffice repeat quotes proprietary offload repos thanks translate touch new acceleration tight normall hz xerver-xorg something idea unity settigns write tracker worry metacity logs screen-cloning whats -scanpci exactly symlinks right-o restricted recovery isny dvi supports redirected properly pm nice wrote quit p valid uh browser setting skydome unbootable canadian wa specific yea german previous see missed model numbers closed-source home killin unrelated newer internet res reset next spinning movie noveau helping nvidia init graphics forget slave hanging glcore years additional re-run useless threaten rebooting program damn coud last pointers perhaps raid partition showed yar installing says theyre intel box wiki specifying win tremulous reports xlib re-install theatning minimize rates us would ran packages official wants cnijfilter-common_3.00-1_i386.deb wierd least screens posted lesser-used vert/horiz vista geforce uhh nv34 similar tab-complete wasnt symptoms already drivers squeeze upping grub virtual recommend seperate glxinfo depends su repository rather]
+
+#! so yeah. Seems like you're running a bit hot. You can try using the latest drivers from Nvidia's web site (they have instructions for Linux users), and also do some tests, such as take note of how long it takes to see the flickering problem after a cold boot. If you install the proprietary driver from their web site, you need to re-install it after every kernel update.
+u: (<< site web re-install proprietary instructions latest note takes tests hot flickering cold >>) thanks, I have done this many times before it just comes many months in between to I always forget how
+
+#! i got the exact same response after running sudo nvidia-xconfig both using startx first and rebooting kdm still did not boot so i logged in and tried startx and still got "(EE) No devices detected" "Fatal server error: no screens found"
+u: (<< still got detected logged startx rebooting fatal kdm screens response nvidia-xconfig ee >>) strange
+
+#! after kernel update, my X was broken, which has happened before, due to drivers. I uninstalled nvidia-glx using apt, and ran the nvidia driver tool downloaded from their site, in my home folder. does this sound plausible?
+u: (<< downloaded broken nvidia-glx tool x ran uninstalled apt happened due plausible >>) as a reason to lost files and be unable to log as normal user?? no it is not plausible i use the nvidia.com drivers myself and never lost any files just X may not start but that's not a big isuue in linux...
+
+#! I can't walk you through, I've got to go soon... but I can summarize it: Enable multiverse, sudo aptitude install nvidia-glx, sudo nvidia-xconfig, restart x to see if it works, if it hasn't enabled the drivers edit xorg.conf to change driver to nvidia, restart x, if it doesn't work, restore xorg.conf from a backup.
+u: (<< restart sudo walk nvidia-glx multiverse x soon xorg.conf restore summarize nvidia-xconfig >>) ok, thanks.. ill give it a shot
+
+#! that might be true, but gdm loads xserver, so im on save side until the next update, dont tell me im ignorant, im asking for a better solation for day, for weeks, yes really for years, but nothing changed with that and nobody ever answered with something that could help, or did you, mr imthetrue-ignorant???
+u: (<< im loads nobody answered xserver ignorant imthetrue-ignorant mr solation weeks >>)   gdm loads xserver?  are you sure about that
+
+#! I don't think its the system specs per se .. I have the feeling like something is messed up with the graphics side of things .. like the rendering or something ... in Jaunty it was a lot smoother
+u: (<< something like per rendering jaunty feeling messed specs smoother se >>) nvidia?
+
+#! ah, I worry about Google knowing everything about me. I wish I could sell my own info to make money. Instead everyone else sells me and makes profit oOOo
+u: (<< everyone worry knowing money wish sell profit sells oooo >>) I've stopped worrying about google, since I've already disclosed anything useful you could ever know about me to them. but I think that discussion is more appropriate for \#ubuntu\-offtopic, before someone redirects it there. \:P
+
+#! it looks like for the new 11.04 ubuntu just installing the nvidia-96 package should suffice, also packages in proposed should make it into the main repository at some point, but i guess there isnt a whole lot of active development behind the nvidia-96 package given its age
+u: (<< package given suffice behind development active nvidia-96 proposed age >>) \- that's interesting to know.
+
+#! then just continue witht he rest of the nvidia guide, if you get your nvidia card working then wow should run in the newer wines (like you isntalled) with no issues, good luck
+u: (<< wow nvidia guide newer rest continue witht isntalled wines >>) ty and see you on the other side \:D
+
+#!  cause i was trying to help you and you told me to stop bugging you cause i wasnt helping ... i know the correct solution and you didnt want to listen.... so suffer when it breaks again and dont learn something... and be ignornant
+u: (<< cause breaks listen wasnt suffer helping bugging ignornant >>)  im not sure of it, but it worked for me this way in the past and this time too. because when i logon into console and call /etc/init.d/gdm start then xserver starts so,.....?
+
+#! hm i hacked it, i dont think so, so nobody else has a antialiased cube, thats imposibble i found this on a forum some time ago (that its possible this wa), why is not maintainable, please?
+u: (<< forum hacked nobody cube wa antialiased maintainable imposibble >>)  i seriously have better things to do... you got it to work... kudos
+
+#! I'm not exactly sure (I'm too lazy to have to deal with this vista crap I don't want to have to go into the control panel), but on the HP website, on my model under Graphics/Audio it says that the "Graphics Subsystem Name" is Intel Graphics Media Accelerator X3100
+u: (<< graphics vista deal crap hp lazy subsystem accelerator >>)  ok , that's a new one to me,    can you boot the live cd at all ? do you get the deskop ?
+
+#! description: VGA compatible controller                 product: nVidia Corporation                 vendor: nVidia Corporation                 physical id: 0                 bus info: pci@0000:01:00.0                 version: a1                 width: 64 bits                 clock: 33MHz                 capabilities: pm msi pciexpress vga_controll
+u: (<< nvidia a1 capabilities msi pciexpress vga_controll width corporation >>) pastebin......
+
+#! - It gave me problems too googled everything even kernel mods - trust me nvidia-settings stands a VERY good chance of writing exactly the xorg.conf you need and easily.
+u: (<< nvidia-settings chance writing easily trust stands mods googled >>) thx i really appreciate you help, however the problem also exists on windows os
+
+#! yeah, one of the reasons I switch to nvidia about two years ago, anyway if you want to review that howto, I'd be happy to help you with any questions
+u: (<< switch reasons happy howto ago questions review years >>) one of the reason I'm relatively comfortable with Ubuntu is that reading How\-Tos has been my favourite past time lately ;
+
+#! - thanks for your help. I would still sometime ideally like to install my legacy NVIDIA driver the one that Nvidia recommends for the card. I think it makes things less laggy. Anyway for thanks again.
+u: (<< thanks less nvidia sometime legacy recommends ideally laggy >>) does it work?
+
+#! then if I login to my main user, it resets to clone mode every time, if I login to my other user which I rarely use, it keeps the extended desktop but still horrible resolution
+u: (<< user login extended clone horrible keeps rarely resets >>) have you tried installing the very latest drivers from amd's site?
+
+#!  in Additional Drivers it says "No proprietary drivers are in use on this system."  And the NVIDIA accelerated graphics drivers has a green dot next to it that says "This driver is activated but not currently in use."
+u: (<< accelerated drivers says additional activated dot green >>) I asked you if you checked like I told you. yes or no?
+
+#! i get two lines "01:00.0 VGA Compatible controller nVidia Corporation GeForce 8600 GT (rev a1)" and "04:00.0 VGA Compatible controller nVidia Corporation GeForce 8600 GT (rev a1)"
+u: (<< compatible a1 rev geforce gt vga corporation >>) okay, one sec
+
+#! sorry had a connection problem...yes the livecd works and I can reinstall 8.10 fine and it will boot fine... it is only when I try to enable the restricted graphics driver that I get this issue
+u: (<< enable reinstall graphics restricted fine connection livecd >>) okay, I think its an issue with dual cards and the propriatery nvidia drivers. Can't be sure myself as have never had dual cards.
+
+#! so why are u concerned about getting that resolution working within the LiveCD environment, when you can't even boot your Linux installation? I guess I'm not understanding what you're attempting to do here.
+u: (<< environment livecd resolution attempting within concerned understanding >>) I've installed ubuntu a couple of times recently. that is not the problem. the problem is that no matter what I do, I can't get this screen to go at a res over 1280x1024.
+
+#! the only error yes. It did ignore some of the servers. in the update manager it shows the ignored as failed, I didnt pastebin unfortunetly I couldnt figure out how to run that command. I'm a bit new with some of this stuff.
+u: (<< failed ignore figure couldnt ignored servers unfortunetly >>) You can run this to fix it\:  wget \-q http\://wine.budgetdedicated.com/apt/387EE263.gpg \-O\- | sudo apt\-key add \-           see http\://winehq.org/site/download\-deb for more info
+
+#! it seemed ubuntu had finished booting, all the drivers loaded etc, then just at the point where the splash screen wud appear thats when it failed
+u: (<< failed loaded appear splash finished seemed wud >>) I recognise that then \- that happens to me on my laptop
+
+#! I think I'm just gonna re-install fiesty until a bigger Gutsy support base comes up. Thanks for the help though
+u: (<< gon base comes re-install bigger gutsy fiesty >>) I understand \- I got stick of my ATI+ubuntu so went out and bought an nvidia 8600 to give gutsy something nice to play with
+
+#! W: GPG error: http://wine.budgetdedicated.com hardy Release: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 58403026387EE263 W: You may want to run apt-get update to correct these problems
+u: (<< hardy following public w signatures verified gpg >>) Is that the only error?
+
+#! never heard compiz referred to as compfiz before... kinda like it... anyway  pastebin the output of this...   sudo lshw |grep -A9 VGA
+u: (<< kinda referred heard compfiz lshw |grep vga >>) description\: VGA compatible controller                 product\: nVidia Corporation                 vendor\: nVidia Corporation                 physical id\: 0                 bus info\: pci\@0000\:01\:00.0                 version\: a1                 width\: 64 bits                 clock\: 33MHz                 capabilities\: pm msi pciexpress vga_controll
+
+#! and iirc you should uninstall the existing drivers and maybe even pull a ctrl-alt-backspace to restart the x server before installing the new ones manually
+u: (<< uninstall pull ones existing ctrl-alt-backspace iirc x >>) I know, but /usr/bin/at <tab> doesn't show anything ati related
+
+#! well I tried the proprietary on Ubuntu. Problem I had, it would never remember settings after reboot :)  So for example every reboot my res would return to 800x600 or something.
+u: (<< would reboot proprietary example return res 800x600 >>) that's one strange bug. what card are you using?
+
+#! you'll need to run two totally seperate Xorg sessions and using something like xinerama to span both monitors
+u: (<< xorg monitors seperate sessions totally span xinerama >>) the goal isn't to use two cards, I just want to use the nvidia card. I have to make it soley use the on board, else it enters a reboot loop
+
+#! type glxgears, if theyre al slowwish stuttery then its wrong, if they move nice and smooth and rather fast then your good
+u: (<< al glxgears smooth theyre slowwish stuttery >>) that works perfectly
+
+#! hold on i use nvidia but with my old ati i think there was one thing needed to be changed let me go look
+u: (<< changed hold nvidia ati old needed >>) ok thanks \:
+
+#! the last time i tried this from the repos, and changed the driver to "nvidia" i had to completely reconfigure X, because it wouldnt start
+u: (<< changed x completely repos wouldnt reconfigure >>) well you're not going to get anywhere with driver nv. nvidia is the accelerated graphics driver.
+
+#! hehe. lol. Can't get Unity to work 3D with the default graphics driver. But graphics card works 3D with proprietary driver on Windows XP
+u: (<< driver graphics hehe proprietary 3d unity >>) ah, yes, right. why don't you use the proprietary drivers? the noveau drivers aren't that good yet.
+
+#! http://tonywhitmore.co.uk/blog/2006/02/07/dual-head-on-ati-radeon-9200-se-under-ubuntu/ has an example of a dual head configuration u can kinda try but u may need change here and there
+u: (<< dual kinda u configuration example head >>) ok i'll look at that \:
+
+#! I'm currently using photorec to recover deleted files and it seems to be finding quite a few of my music files, so it looks like the contents of my home folder were in fact deleted :(
+u: (<< files contents finding recover deleted photorec >>) i can only guess that somehow you get a disk or filsystem falliure of some sort maybe hardware
+
+#! as a reason to lost files and be unable to log as normal user?? no it is not plausible i use the nvidia.com drivers myself and never lost any files just X may not start but that's not a big isuue in linux...
+u: (<< files unable lost plausible isuue nvidia.com >>) I'm currently using photorec to recover deleted files and it seems to be finding quite a few of my music files, so it looks like the contents of my home folder were in fact deleted \:
+
+#! becuase mine dont display correctly - which always happens until I install the latest drivers.
+u: (<< happens mine display latest correctly becuase >>) did you try searching synaptic's browser
+
+#! ooooooooh i didnt remove the server layout part, could that have stopped it from finding screens tho?
+u: (<< layout finding tho stopped screens ooooooooh >>) yep
+
+#! I think I have nailed my problem with Office 2007 and crossover under Ubuntu to Compiz, not the nvidia drivers themselves, as I wasnt aware of compiz being installed by default
+u: (<< office nailed compiz aware crossover wasnt >>) then you need to work with crossover as its a proprietary software as is Office
+
+#! I'm not sure if there is a better way to do that, but I only use screen when I'm running a program in the shell that I will be keeping open for a long time, like irssi or emacs
+u: (<< program long irssi keeping shell emacs >>) you understand what I want, though, right?
+
+#! Thunderbird released security update last thrusday. I still haven't received an update. Makes me wonder if I can rely on updates sometimes.
+u: (<< released received update thunderbird rely thrusday >>) no idea if it has been added to the ubuntu repositories yet. i use gmail through the browser. \:
+
+#! well, I don't know if the data is lost, but my home folder got reset back to the initial state it was in when i first installed
+u: (<< reset data home initial lost state >>) what do you mean by that all the files stored under \$HOME got erased?? or only some configuration files ??
+
+#! Things are moving slower than I'd expect. When I switch windows, for a milisecond, I feel like I see X drawing the window.
+u: (<< slower expect feel moving drawing milisecond >>) X does not use 3d acceleration
+
+#! we can't really support non-free 3rd party apps here, so you're better off contacting the zattoo support people
+u: (<< support 3rd contacting non-free party zattoo >>) No, 32.
+
+#! the goal isn't to use two cards, I just want to use the nvidia card. I have to make it soley use the on board, else it enters a reboot loop
+u: (<< use goal board loop enters soley >>) can you disable the onboard in the bios ?
+
+#!  of course i understand.   what you want is to use the configuration tool to write you a new xorg.conf file so that xorg starts with your new settings.  unless you want to edit the xorg.conf file by hand
+u: (<< want new file hand starts xorg.conf >>) no this settigns are applied by nvidia\-settings \-l \-l for load my configuration that i choose in graphic mode
+
+#! in that website the guide it gives it asks me to go to synaptic package manager > settings > repositories and then a "Software Properties" window should come up where i can add stuff, but a "Software Sources" window comes up with no add button
+u: (<< add window software asks properties >>) if you have already enalbed the universe and multiverse repos you're all set for that step
+
+#! nvidia, although I tried nv for a moment for similar results
+u: (<< although moment similar nv results >>) what nvidia card are u using?
+
+#! so the default ones are the open source ones? These won't do Unity 3D. Although the proprietary one do do 3D when I'm using Windows XP
+u: (<< although proprietary ones 3d unity >>) I got the closed\-source ones by default. the proprietary that is.
+
+#! Yes, any idea how to make it work with my nvidia card? Can I use another driver (instead of the prop. one)?
+u: (<< another instead idea nvidia prop >>) i have no problem with it
+
+#! system is running but i cant install the grafic drivers (it says cant find nvidia card). already modified the xorg.conf to nv driver
+u: (<< cant modified xorg.conf nv grafic >>) lspci | grep VGA
+
+#! situation is, if i'm not able to fix it, i have to go back to vista. and i instaled ubuntu as soon my new comp get in
+u: (<< comp instaled situation soon vista >>) esc when grub loads, use cursors to choose older kernel not recovery
+
+#! look at the output of 'mount' (without parameters) or sudo fdisk -l and compare if /boot/grub/menu.lst reflects the right partitions. Another issue could be that there are no or wrong symlinks from /vmlinuz to /boot/vmlinuz-foo-bar
+u: (<< compare fdisk parameters reflects symlinks >>) hmm \- okay \- i am checking some stuff now \- I booted to livecd \- sec
+
+#! Well, I would start by suggesting installing the ati drivers which might even recognize and configure some settings for you automatically
+u: (<< configure recognize ati suggesting automatically >>) cool, arn't the drivers card specific for this?
+
+#! a ok ,but i have realy problems with next LTS coz my nvidia card is not soported (need 173xx drivers)
+u: (<< coz realy 173xx soported lts >>) time for a new card then.
+
+#! you might have to change that driver, but it's confusing (to me) as to which driver you need to change it to for 3d support on a geforce 4 MX card
+u: (<< driver confusing change geforce mx >>) thanks a lot man, I'll try that you have been so much help for me, buddy
+
+#! have you tried the driver from nvidia, or did you use the new restricted driver utility that comes with fiesty fawn?
+u: (<< driver restricted utility fiesty fawn >>) the guy who wrote that seemed to have my problem but ididn't know how to name it
+
+#! I can make it not the primary, but that makes it enter a reboot loop where it does not even get past GRUB
+u: (<< enter makes past primary loop >>) the video card should not change the booting at all,
+
+#! yes download tar then right click it and Extract. inside will be 3 files  install the two deb files
+u: (<< files tar deb inside extract >>) how do i install the deb files?
+
+#!  it will work till the next upgrade to gdm...   gdm is a the gnome display manager... not an XServer... .ignorance is bliss
+u: (<< gdm xserver till .ignorance bliss >>) that might be true, but gdm loads xserver, so im on save side until the next update, dont tell me im ignorant, im asking for a better solation for day, for weeks, yes really for years, but nothing changed with that and nobody ever answered with something that could help, or did you, mr imthetrue\-ignorant???
+
+#! This machine is a P4 2.0GHz, not hyperthreaded or anything like that, and has a GeForce MX440. The one I have back home is a P4 3.0GHz, hyperthreaded, with a Radeon 9800. Got any pointers for improving the performance of either?
+u: (<< geforce p4 hyperthreaded improving pointers >>) search in synaptic for nvidia, install the linux\-restricted\-modules   for the smp kernel and nvidia
+
+#! i can not think of anything... maybe grep for the name of the hard disk device /dev/sdxx or /dev/hdxx
+u: (<< grep device name hard disk >>) only messages involving drives are adding of swap. but, I think I might have figured out what did it... maybe
+
+#! if i use his exact xorg.conf file, does it stand a high chance of working?
+u: (<< high exact xorg.conf chance stand >>) no
+
+#! I assumed there was a high demand for that specific card because of some sort of feature thats a must have..
+u: (<< high feature assumed demand have.. >>) shops "often" have strange prices for hardware
+
+#!  well i was also having video issues when i tried to use wine and steam to test ARMA2 yesterday
+u: (<< issues wine test yesterday steam >>) your nvidia\-settings run showed that there was no xorg.conf until a few minutes ago, so nvidia drivers didn't run before
+
+#! i'm not much of a gamer so I don't really care, just would have like to have kept steam on in case others wanted to play it
+u: (<< kept care others steam gamer >>) what filesystem on the raid?
+
+#! since you knew about alien I'm assuming you're relatively comfortable with linux / ubuntu
+u: (<< knew alien assuming comfortable relatively >>) "relatively" \:
+
+#! if I make the nvidia the primary, it gets to grub, spits out a few lines, then POSTS, then enters grub, spits out a few lines, then POSTS, etc
+u: (<< lines grub posts enters spits >>) that suggests a hardware issue
+
+#! not if ubuntu isn't using it correctly. You should try to find out online somewhere by looking up your computer model
+u: (<< looking online model correctly somewhere >>) Ok; and once I find the information, what should I do?
+
+#! could u help me at least with resolution? It was very low and i managed to instal Nvidia x server, but with that i need change resolution in every boot
+u: (<< low resolution x instal managed >>) you need to run\: gksudo nvidia\-settings
+
+#! I mean that when I ls my home folder, I see only the folders that are there by default on a fresh install
+u: (<< ls folders folder home fresh >>) did you get any error msg during boot or something? maybe something about disk corruption
+
+#! are you using an intel ati or nvidia gpu, just paste the output of lspci | grep VGA if you dont know
+u: (<< lspci ati intel gpu vga >>) ATI Radeon
+
+#! I know of one with similar chip on lucid, which worked.. no more count on me in that, nvidia here, sorry
+u: (<< lucid chip similar count worked.. >>) the ati site redirected me to dell
+
+#! and when I ran something called nvidia-configure, now I can't even get to GDM on the main card
+u: (<< main called gdm ran nvidia-configure >>) that's just display issues, I'm more concerned by the fact that it won't boot with the nvidia card in
+
+#! and does it matter if im using ubuntu or kubuntu? (i presume not, since they are basically the same, with the exception of the window manager)
+u: (<< matter basically kubuntu presume exception >>) not just the window manager... the whole desktop environment. But it should be the same, if you're doing it all from the terminal.
+
+#! is not the driver (or not that I know) the thing is I can't see no menus when I start 3d games like tremulous or ppracer,
+u: (<< menus 3d games ppracer tremulous >>) \- what do you mean "no menus?"  Are the fonts missing or is the screen blank?
+
+#! i create a movie with my mobile, to show you exactly the problem... its only in 3gp format, and i cant convert it atm :S http://pc.rvgate.nl/nvidia_twinview.3gp
+u: (<< mobile convert atm movie 3gp >>) yar I saw it and I messaged that I'm not sure what to do, its veeeeery wierd
+
+#! (II) NVIDIA(0): Setting mode "1280x1024_60" (II) NVIDIA(0): Setting mode "1280x1024" - that's two lines at the end
+u: (<< mode nvidia setting 1280x1024_60 ii >>) ok, but there's more, like how the chip is getting probed, the driver you're using, etc. Those files will give me something to sink my teeth in
+
+#! I understand - I got stick of my ATI+ubuntu so went out and bought an nvidia 8600 to give gutsy something nice to play with
+u: (<< nice stick went bought gutsy >>) lol, nice.
+
+#! np. sorry I have to quit now. hope you get on alright. bye!
+u: (<< np hope alright bye quit >>) "couldnt open module "nvidia" and direory font/cyrillis does not exist are some of several errors
+
+#! im using this cli chat because obviously i have no xserver :P
+u: (<< obviously chat p cli xserver >>) when the screen goes blank Ctrl+Alt+F1 to get into the first pseudo terminal, then you can login and find the log from the command line
+
+#! I am trying to get rid of all the Nvidia packages ... but it wants to remove that one as well
+u: (<< packages nvidia remove rid wants >>) yes you can remove it
+
+#! I don't know much about compiling drivers - but if you look in the comments section he posted a link to the solution.  I don't understand it though
+u: (<< posted section comments solution compiling >>) that was installed immediatly when I installed ubuntu, and yes, it's restricted, should I change that driver?
+
+#! the rendering issue is on both users, but the reset to clone only exists on primary user
+u: (<< reset rendering clone exists primary >>) the only thing I could think to recommend is manually installing the latest drivers
+
+#! Ok, I replaced nvidia-glx-new by nvidia-glx. How to activate it? Is restarting X enough?
+u: (<< restarting nvidia-glx-new nvidia-glx activate replaced >>) yes
+
+#! nvidia nv18, my drivers are all installed, the sound goes normally but I can't see the menus, when I hit enter like crazy I can see the game "ppracer" but I can see no menus
+u: (<< see menus crazy nv18 ppracer >>) nv18 is the core, what is the model of your graphics card.  we need more information.  who is the manufacturer?
+
+#! not theatning just stating the facts and trying to pass a little of the huge frustration I'm feeling right now
+u: (<< stating feeling facts frustration theatning >>) don't let some knowitall troll bother you ,....we get alot of those here on weekends ..let's start over
+
+#! ok, wacoms are supposed to be fairly well-supported in Ubuntu, I just need to configure a bunch of things. Thanks for the link!
+u: (<< supposed bunch fairly wacoms well-supported >>)  you can also try a search for wacom in synaptic see if there is a package for it
+
+#! no but that is what i think i did before i have also tried dpkg-reconfigure -phigh xerver-xorg and i tried downloading the nvidia driver from nvidia and then sudo sh NVIDIA-Linux-x86-180.22-pkg1.run
+u: (<< tried nvidia sh -phigh xerver-xorg >>) does a livecd work?
+
+#! yes actually i have two video cards and two monitors both video cards are NVIDIA GeForce 8600 GT
+u: (<< two video cards geforce gt >>) okay, whats the output of lspci | grep VGA?
+
+#! it should... but you shouldn't have to reinstall the whole OS. I mean, Edgy is a good upgrade, but if you don't really need it...
+u: (<< upgrade reinstall whole edgy os >>) and does it matter if im using ubuntu or kubuntu? i presume not, since they are basically the same, with the exception of the window manager
+
+#! he's using nvidia drivers it seems but for whatever reason his fancy GUI stuff isn't showing so
+u: (<< whatever reason gui showing fancy >>)  well i was also having video issues when i tried to use wine and steam to test ARMA2 yesterday
+
+#! good plan - but won't work, the desktop like packages only get the 3 years (next LTS this won't apply)
+u: (<< wo plan years apply lts >>) a ok ,but i have realy problems with next LTS coz my nvidia card is not soported need 173xx drivers
+
+#!   are you telling me that nvidia loads a bunch of info before xorg starts? is that what you are trying to say?
+u: (<< xorg telling starts loads bunch >>) yes when xserver starts and loads nvidia, xserver applies the default nvidia values without antialiasing, and than loads nvidia\-settings \-l
+
+#! oh, nvm... now the only contents of my home folder are .beagle, bgdesklets, .gxine, and .xine
+u: (<< .beagle .gxine .xine bgdesklets >>) without some other info i can not guess what could have coused this... have you looked at log files under /var/log/ messages and syslog
+
+#! ddcprobe only tells me I can go up to 1280x1024... clearly a lie.
+u: (<< 1280x1024 ddcprobe clearly lie >>) you're doing this from a livecd boot?
+
+#! "nVidia Corporation NV34 [GeForce FX 5200] (rev a1)"
+u: (<< a1 fx nv34 corporation >>) you sure that's the right driver, isn't that an old card?
+
+#! then it's a work-around and invalidates the use of the button. Although the button would be easier. Right now the Nvidia is activated, also?
+u: (<< activated button invalidates work-around >>) it could be , but I'm not sure if intel used nvidia chips , they may have I have them on my soundcard
+
+#! https://help.ubuntu.com/community/Repositories/Ubuntu you can go there and follow that help to add them also, then go back to the nvidia help to add the nvidia packages
+u: (<< add help go nvidia >>) i think i already had them thanks \:
+
+#! brand new board .. - ASUS - with an AMD64
+u: (<< amd64 asus board brand >>) SATA?
+
+#! for the next time all you need to do is to use aptitude to install the nvidia-96 package from maverick proposed
+u: (<< aptitude maverick nvidia-96 proposed >>) \- ok thanks mate
+
+#! the generic one automagically detects hyperthreading and SMP
+u: (<< automagically detects hyperthreading smp >>) ok, how do i make grub default to booting that one?
+
+#! if it doesnt help leave it as it was, to apply changes restart X
+u: (<< changes x apply leave >>) how can I restart it?
+
+#! ok, but there's more, like how the chip is getting probed, the driver you're using, etc. Those files will give me something to sink my teeth in
+u: (<< chip probed sink teeth >>) but how send it to You? \:.
+
+#!  i could be wrong but i use nvidia-settings to configure a new xorg.conf file so that it will do all that stuff for you... nvidia-settings is a configuration tool
+u: (<< configure configuration tool nvidia-settings >>) yes and by default it is loaded AFTER Xserver, so that all these settings appear for ONLY all startet applications AFTER XServer, but i want it FOR the Xserver, understand???
+
+#!  gentoo thats the thing thought the cpu usage is fine... the max its been at is 1.2...
+u: (<< cpu usage gentoo max >>) \^
+
+#! yes ... well ... let's say I'm hopeful ... the ATI drivers have been relatively crappy so far :(
+u: (<< crappy relatively hopeful ati >>) yeah, one of the reasons I switch to nvidia about two years ago, anyway if you want to review that howto, I'd be happy to help you with any questions
+
+#! the only thing that will work is going to the .Private directory in the slave drive and running ecryptfs-recvoer-private... My current folder mounts when I log in
+u: (<< current mounts ecryptfs-recvoer-private slave >>) you'll struggle to use two video cards like that
+
+#! switching 1 resolution lower makes it display correctly on both display... but it should work on 1400x1050 on both screens
+u: (<< display lower switching 1400x1050 >>) thats very wierd
+
+#! well you're not going to get anywhere with driver nv. nvidia is the accelerated graphics driver.
+u: (<< driver accelerated anywhere nv >>) ok... thats what i figured... \*sigh\*
+
+#! if you get problems with the Nvidia driver, you can boot into recovery mode, and change a single line in /etc/X11/xorg.conf       Just change Driver "nvidia" to Driver "nv"
+u: (<< driver nvidia change nv >>) what does that actually do?
+
+#! I dont know, I always install my drivers from the nvidia installer.
+u: (<< drivers always nvidia installer >>) k
+
+#! so you're using the Nvidia proprietary drivers or the oss drivers (nv)?
+u: (<< drivers proprietary nv oss >>) nvidia, although I tried nv for a moment for similar results
+
+#! open system>admin> addtional drivers , what does it say about recommended or active drivers?
+u: (<< drivers recommended active addtional >>) hang on a sec.
+
+#! not yet ..need to do more research ,,it's become more difficult in some ways now that google dumped the google-linux search
+u: (<< dumped ,it ..need google-linux >>) right\-o. I'm looking in the forum anyway!
+
+#! ah, ok... well, i can re-install to Edgy... thats not a problem... but that procesure *does* work for Edgy then?
+u: (<< edgy re-install does procesure >>) it should... but you shouldn't have to reinstall the whole OS. I mean, Edgy is a good upgrade, but if you don't really need it...
+
+#! i mean you dont have a better idea either, so whats your problem with me?
+u: (<< either better idea whats >>)  cause i was trying to help you and you told me to stop bugging you cause i wasnt helping ... i know the correct solution and you didnt want to listen.... so suffer when it breaks again and dont learn something... and be ignornant
+
+#! Just paste everything that comes from 'sudo apt-get update' to http://paste.ubuntu.com and give me the url.
+u: (<< everything paste comes url >>) http\://paste.ubuntu.com/60131/
+
+#! just down in that page, and don't forget a sudo chmod +x for it (make executable)
+u: (<< executable forget chmod +x >>) thanks, trying it now
+
+#! - ctrl-alt-f7 is this one, the second one is f9, and f8 has what I saw when I booted up. Explanation?
+u: (<< explanation ctrl-alt-f7 f8 f9 >>) you did something freaky when messing w/ your video drivers
+
+#! it says ignore in sudo apt-get update but in the package manager it reports as failed. Failed and ignored usually mean very different things.
+u: (<< failed reports ignore ignored >>) Are you still getting the errors in update\-manager, can you paste those somewhere?
+
+#! i followed the HOWTO on the wiki... altho im sure i did something wrong, i usually do
+u: (<< followed howto wiki altho >>) I can't walk you through, I've got to go soon... but I can summarize it\: Enable multiverse, sudo aptitude install nvidia\-glx, sudo nvidia\-xconfig, restart x to see if it works, if it hasn't enabled the drivers edit xorg.conf to change driver to nvidia, restart x, if it doesn't work, restore xorg.conf from a backup.
+
+#! when the screen goes blank Ctrl+Alt+F1 to get into the first pseudo terminal, then you can login and find the log from the command line
+u: (<< goes blank pseudo ctrl+alt+f1 >>) ty will try
+
+#! the guy who wrote that seemed to have my problem but ididn't know how to name it
+u: (<< guy seemed wrote idid >>) I don't know much about compiling drivers \- but if you look in the comments section he posted a link to the solution.  I don't understand it though
+
+#! hmm, im an ati user myself, perhaps someone else knows more about nvidia's drivers
+u: (<< hmm ati perhaps knows >>) ok thank's for your help.
+
+#! after a couple of beers, I actually can't remember your issue anymore. so let's hope someone else can help you. :)
+u: (<< hope anymore beers couple >>) hehe. lol. Can't get Unity to work 3D with the default graphics driver. But graphics card works 3D with proprietary driver on Windows XP
+
+#! ive never used this irssi before, so dont know how to "minimize" it and search for log in cli
+u: (<< irssi minimize ive cli >>) ok in that case I'm not sure how to help cause I have an ATI card had to do this, http\://munckfish.net/blog/archive/2006/02/07/ubuntu\-on\-acer\-aspire\-9500/, to fix it for breezy seems I have to do the same for dapper. Need someone with your card to relate their experiences.
+
+#! I didn't see your issue earlier , perhaps you could repeat it , we'll try to help
+u: (<< issue earlier perhaps repeat >>) I could try and check if it's possible anyway. Wouldn't hurt imho.
+
+#! if your on gnome leave the system monitor running so you can keep an eye on the cpu usage for a while
+u: (<< leave cpu usage eye >>)  gentoo thats the thing thought the cpu usage is fine... the max its been at is 1.2...
+
+#! if you don't mind some kde libs on you machine ktorrent is as close to utorrent as it gets or you could always run utorrent under wine , which has been siccessful in the past
+u: (<< libs ktorrent siccessful utorrent >>) what are kde libs?
+
+#! run it again. from the video card side it should work now fine. see lines 4-6 in your paste
+u: (<< lines paste side video >>) excellent, i'll try again and let you know
+
+#! do these sync rates match what you have in xorg.conf? sudo ddcprobe | grep monitorrange
+u: (<< match ddcprobe monitorrange rates >>) er... we have another problem now. they are the sync ranges for this lcd, taken from the specs.
+
+#! without some other info i can not guess what could have coused this... have you looked at log files under /var/log/ messages and syslog
+u: (<< messages looked syslog coused >>) going there now
+
+#! esc when grub loads, use cursors to choose older kernel (not recovery)
+u: (<< older cursors esc loads >>) could u help me at least with resolution? It was very low and i managed to instal Nvidia x server, but with that i need change resolution in every boot
+
+#! does that same process apply to Edgy? im on breezy right now
+u: (<< process edgy apply breezy >>) that process doesn't work on breezy. Sorry...
+
+#! what command line program can i use to open the log file ?
+u: (<< program open line log >>) easiest is 'less'. so type 'less <logfilename>'
+
+#! no can't run nvidia settings since unisntalling proprietary. I can use the "Monitors" to set up res etc with the default Ubuntu drivers
+u: (<< proprietary monitors res unisntalling >>) after a couple of beers, I actually can't remember your issue anymore. so let's hope someone else can help you. \:
+
+#! yep. ATI released a new driver a week or so ago
+u: (<< released ago week ati >>) ah ok so you're upgrading
+
+#! no idea if it has been added to the ubuntu repositories yet. i use gmail through the browser. :)
+u: (<< repositories added browser gmail >>) ah, I worry about Google knowing everything about me. I wish I could sell my own info to make money. Instead everyone else sells me and makes profit oOOo
+
+#! but it does line up since 1280x1024 is the highest res I can obtain
+u: (<< res 1280x1024 highest obtain >>) and you've looked within xorg.conf in terms of resolutions there and the driver it's using?
+
+#! have you tried checking the restricted drivers control panel?
+u: (<< restricted checking control panel >>) restricted? Ya. I checked that. The only restricted driver I have is my atheros wifi.
+
+#! your nvidia-settings run showed that there was no xorg.conf until a few minutes ago, so nvidia drivers didn't run before
+u: (<< run minutes nvidia-settings showed >>) should i just try it again?
+
+#! when you have the display you want, write the settings to xorg.conf
+u: (<< settings write display xorg.conf >>) what is xorg.conf
+
+#! i use tracker to find the script that runs gdm and simply put my command before
+u: (<< simply gdm runs tracker >>)  yeah.. that is a great maintainable way..... good luck with it
+
+#! so sudo apt-get remove nvidia-glx sudo apt-get install nvidia-glx? or do i need to linux-restricted-modules?
+u: (<< sudo apt-get nvidia-glx linux-restricted-modules >>) I dont know, I always install my drivers from the nvidia installer.
+
+#! I can boot to that kernel by booting the livecd and telling it to boot to the first hard disk
+u: (<< telling boot livecd booting >>) then your /boot/grub/menu.lst on the installed kernel is malformed
+
+#! only time I've not been able to get into a term was when I had the vert/horiz refresh rate wrong
+u: (<< term rate refresh vert/horiz >>) i just tried ctrl+alt+f2 and get into terminal \:
+
+#! and you've looked within xorg.conf in terms of resolutions there and the driver it's using?
+u: (<< terms looked within resolutions >>) yeah.. I've tried a lot of things  before rendering the system unbootable \:
+
+#! and for a test, I'd suggest going back to the nv driver from nvidia; isolate the problem a bit, maybe
+u: (<< test suggest nv isolate >>) really thank You for help, i have to go. I hoped it's obvious problem \- it isn't. I'll take cale about this tommorow
+
+#! uhh, my cards running off the default drivers, and theres many diffrences to my xorg.conf and the one in the example
+u: (<< theres cards uhh diffrences >>) Well, I would start by suggesting installing the ati drivers which might even recognize and configure some settings for you automatically
+
+#! I'm not sure I understand what u mean when you say your system is unbootable. Had u already installed Ubuntu and are now trying to fix it with the livecd?
+u: (<< u livecd understand unbootable >>) I made the boot partition too small for some reason we ended up needing a boot partition to solve a grub error, despite this machine not being too old P4
+
+#! might be unrelated, but in my case, overheating of the GPU was the cause of random flickers on my screen.
+u: (<< unrelated gpu overheating flickers >>) yeah this is cheaper laptop and is a little hot to touch right now.
+
+#! but wouldn't update manager install any updated drivers?
+u: (<< update drivers manager updated >>) yep. but you never know.
+
+#! almost without a hitch. i DID have to reinstall nvidia-current and reboot. but now it works again, without the nvidia.com driver
+u: (<< without nvidia-current nvidia.com hitch >>) great \:D
+
+#! nvidia drivers don't work with the generic ones. are you sure there's no way to get it to work with the 386 one?
+u: (<< work nvidia generic ones >>) You just have to reinstall them
+
+#! i don't know of a way to send the log to pastebin wtihout typing it all out manually (which is what i did for xorg)...
+u: (<< xorg typing send wtihout >>) you can install the pastebinit program and then do cat /path/to/log | pastebinit
+
+#! no this settigns are applied by nvidia-settings -l (-l for load my configuration that i choose in graphic mode)
+u: (<< -l applied settigns >>)  o.k.  good luck finding out how to do that
+
+#! what do you want to do exactly?  play games or make 3d models, or what?
+u: (<< 3d games models >>) \: aminly for 3d models thats it no games and acceleration.
+
+#! yes this is what I did but none of them worked to do 3D with unity
+u: (<< 3d none unity >>) i'm using some obsure intel/nvidia integrated card in my laptop, so most cards should work as well or better. \:P
+
+#! input devide, just bought a 4x5 wacom tablet.
+u: (<< 4x5 devide wacom >>) look up the model in the forum or try here  https\://wiki.ubuntu.com/HardwareSupport
+
+#! sorry alt f2 and compiz --replace
+u: (<< alt f2 replace >>) yeah thats what i did and the effects were on again
+
+#! video drivers are a huge pain in the ass =/
+u: (<< ass huge pain >>) the drivers have a shim interface with the kernel which is kernel specific
+
+#! I used to run an onboard ati, but now I'm running nvidia (but wanting at :\) so I don't know
+u: (<< ati onboard wanting >>) ok, thanks for you help
+
+#! mainly uninstall purge drivers reinstall, re-run aticonfig
+u: (<< aticonfig mainly re-run >>) does changing the resolution in the screen resolution tool do anything for you?
+
+#! i missed your answer/suggestion becouse you didn't start with RvGaTe: <message>, i was wondering where you went :P
+u: (<< becouse missed answer/suggestion >>) sorry ;p
+
+#!  you probably won't run at realy big resolutions
+u: (<< big resolutions realy >>) I will be running really big resolutions
+
+#! - what do you mean "no menus?"  Are the fonts missing or is the screen blank?
+u: (<< blank menus fonts >>) in ppracer, for example, i can't see anything but some squares that I know is where the menus are, but there are no letters, and if i hit enter enough i can see the penguin
+
+#! read the wiki for breezy, I'm not familiar with how to do it there.
+u: (<< breezy wiki familiar >>) ah, ok... well, i can re\-install to Edgy... thats not a problem... but that procesure \*does\* work for Edgy then?
+
+#! ok, I will try that, do you the command to open the catalyst control center?
+u: (<< center control catalyst >>) I used to run an onboard ati, but now I'm running nvidia but wanting at \:\ so I don't know
+
+#! when i changed virtual resolution it did not work
+u: (<< changed resolution virtual >>) are you sure you showed me the whole xorg log file, it seems truncated
+
+#! yeah this is cheaper laptop and is a little hot to touch right now.
+u: (<< cheaper touch hot >>) in a terminal or use the menu shortcut if you prefer type\: nvidia\-settings, and there should be a section for Temperature or Thermal.
+
+#! I asked you if you checked like I told you. yes or no?
+u: (<< checked asked told >>)  sorry I'm new to linux.  here\:  http\://paste.ubuntu.com/653543/
+
+#! something in the Windows internals should tell you what wireless chipset you have. That's valuable information
+u: (<< chipset internals valuable >>) I'm in linux now, cheers
+
+#! I'm think about rebooting to see if I can get the error messages to come back
+u: (<< come messages rebooting >>) If you're talking about the ignores, those are normal.
+
+#! correct, and wheezy isn't coming out next month that's for sure ;)
+u: (<< coming month wheezy >>) ok
+
+#! like if i just copy and paste the Section "Screen" ?
+u: (<< copy paste section >>) hold on i use nvidia but with my old ati i think there was one thing needed to be changed let me go look
+
+#! ctrl-alt-f7  f8  f9  etc
+u: (<< ctrl-alt-f7 f8 f9 >>) \- ctrl\-alt\-f7 is this one, the second one is f9, and f8 has what I saw when I booted up. Explanation?
+
+#! are the current nvidia drivers in the ubuntu repo 9746?
+u: (<< current nvidia repo >>) no.  There is another repo that has those though.
+
+#! damn I'll need a new brain, mine is burning
+u: (<< damn burning brain >>) don't threaten , that won't help you
+
+#! thats the problem. What distro are you on? Dapper, edgy?
+u: (<< dapper edgy distro >>) edgy
+
+#! ok, how do i make grub default to booting that one?
+u: (<< default grub booting >>) Once you make sure it works ok and everything, you can just delete the entries for the \-386 or copy and paste the \-generic one to the top of the list.
+
+#! err, define not working, what are you doing, what doesnt work or works as you expected it to?
+u: (<< define expected err >>) i plug my tv into my laptop and nothing no sound or video of any kind
+
+#! if you want a GUI, just install desktop (it's easier)
+u: (<< desktop easier gui >>) what desktop ?
+
+#! Not sure what vid card I have. It should be in device manager, right?
+u: (<< device manager vid >>) not if ubuntu isn't using it correctly. You should try to find out online somewhere by looking up your computer model
+
+#! it would take me less time to install to edgy than to download all the upgrades
+u: (<< edgy less upgrades >>) ok, go ahead.
+
+#! then go edit your /etc/X11/xorg.conf to make sure your driver is "nvidia" and not "nv"
+u: (<< edit nvidia nv >>) I've done that. Anything else?
+
+#! did you edit your xorg.conf after installing nvidia driver
+u: (<< edit nvidia xorg.conf >>) no, I just tried the System \-> Preferences \-> Desktop Effects menu.
+
+#! my question is to obtain updates for long period than in desktop edition
+u: (<< edition period obtain >>) good plan \- but won't work, the desktop like packages only get the 3 years next LTS this won't apply
+
+#! do you know anything else cool like that?
+u: (<< else anything cool >>)   gegls from outer space
+
+#! btw why did you enabled root? or are you in recovery mode?
+u: (<< enabled recovery btw >>) I cannot log in as any user besides root
+
+#! in logs look for filesystem or hard disk errors
+u: (<< errors filesystem logs >>) it doesn't seem like it, but this is pretty much a single user machine
+
+#! Can you pastebin the errors from 'sudo apt-get update' ?
+u: (<< errors pastebin update >>) im worried about updating ubuntu via the update manager becuase on of the updates is an invidia drive but i dont have an invidia card its ati. last time after installing this i had to reinstall but my pakage manager wants me to !
+
+#! you want every shell to start in screen instead of on its own
+u: (<< every instead shell >>) is it stupid to do?
+
+#! I use to be a gentoo fan boy too
+u: (<< fan gentoo boy >>) my guess is that the kernel line doesn't point to a valid kernel
+
+#! i get "fatal server error Unrecognized option: -scanpci"
+u: (<< fatal -scanpci unrecognized >>) urgh
+
+#! what do you mean by that all the files stored under $HOME got erased?? or only some configuration files ??
+u: (<< files erased stored >>) I mean that when I ls my home folder, I see only the folders that are there by default on a fresh install
+
+#! yes I can. is there anything in particular I should be looking for, in those folders or in the logs
+u: (<< folders logs particular >>) well check if you have lost any other files besides those of your main user...
+
+#! glxinfo displays a whole lot of stuff so normall it's easier to: glxinfo | grep direct
+u: (<< glxinfo displays normall >>) thanks \: i'll get used to this sometime \:
+
+#! on the other hand, I just found out that there's a RPM package on the ATI page
+u: (<< hand ati rpm >>) well there IS a module in the ubuntu repository
+
+#! id only worry if it was stuck on high cpu usage
+u: (<< high worry usage >>)  to be honest with you thought... 10.04 runs way better for me then 11.04
+
+#! nvidia (I didn't highlight you past time so I'd assume you didn't see it).
+u: (<< highlight past assume >>) are you sure that that driver supports using the GPU?
+
+#! look up the model in the forum or try here  https://wiki.ubuntu.com/HardwareSupport
+u: (<< https model forum >>) ok, wacoms are supposed to be fairly well\-supported in Ubuntu, I just need to configure a bunch of things. Thanks for the link!
+
+#! that was installed immediatly when I installed ubuntu, and yes, it's restricted, should I change that driver?
+u: (<< installed restricted immediatly >>) you might have to change that driver, but it's confusing to me as to which driver you need to change it to for 3d support on a geforce 4 MX card
+
+#! either a failure or an incompatability with the intel one at the same time
+u: (<< intel failure incompatability >>) and when I ran something called nvidia\-configure, now I can't even get to GDM on the main card
+
+#! it could be , but I'm not sure if intel used nvidia chips , they may have I have them on my soundcard
+u: (<< intel soundcard chips >>) So, is there a way to check if I'm actually using the Nvidia one?
+
+#! I just killed off the vino-server process. I think it was a zombie.
+u: (<< killed vino-server zombie >>) that seems more likely
+
+#! i plug my tv into my laptop and nothing no sound or video of any kind
+u: (<< kind plug tv >>) how are you you enabling the video out?
+
+#! what kind of vid card ya got?
+u: (<< kind ya vid >>) Not sure what vid card I have. It should be in device manager, right?
+
+#! i dont know.. u just installed the nvidia official driver and the effects were on
+u: (<< know.. effects official >>) try "compiz \-\-replace"
+
+#! Make sure to include the dash on the last 'add' command.
+u: (<< last include dash >>) anyone idea on the problems with the update manager tho?
+
+#! the only thing I could think to recommend is manually installing the latest drivers
+u: (<< latest manually recommend >>) ok, I will try that, do you the command to open the catalyst control center?
+
+#! and I am not even using wobbly windows etc ... I left it on Normal .. yes Nvidia
+u: (<< left normal wobbly >>) which driver version
+
+#! its linked in the Beryl Edgy how to on the ubuntu document storage porject
+u: (<< linked document porject >>) yeah.
+
+#! sorry, are those marked by a specific phrase in the logs so I can grep it? these things are long
+u: (<< logs marked phrase >>) i can not think of anything... maybe grep for the name of the hard disk device /dev/sdxx or /dev/hdxx
+
+#! nv18 is the core, what is the model of your graphics card.  we need more information.  who is the manufacturer?
+u: (<< manufacturer core nv18 >>) what file would you like to see in the paste bin, I've posted them all
+
+#! thanks, I have done this many times before it just comes many months in between to I always forget how
+u: (<< many forget months >>) I try. But hopefully you can find a solid solution as well.
+
+#! oh ya, it also doesn't render the background of menus correctly
+u: (<< menus background render >>) and what have you done so far as trying to change the resolution and screen\-cloning settings?
+
+#! yar I saw it and I messaged that I'm not sure what to do, its veeeeery wierd
+u: (<< messaged veeeeery yar >>) ok...
+
+#! nevermind, it's just a huge mess. lol
+u: (<< nevermind mess huge >>) yeah, sounds like it \:
+
+#! why do you need to install new nvidia drivers
+u: (<< new drivers nvidia >>) becuase mine dont display correctly \- which always happens until I install the latest drivers.
+
+#! i wanted nvidia-settings -l to load my profile simply before xserver starts
+u: (<< nvidia-settings profile xserver >>)  because it doesnt work that way... but you hacked a solution... and kudos to you....
+
+#! o.O!!! mayor data loss with a kernel update ?? never heard of that
+u: (<< o.o loss mayor >>) well, I don't know if the data is lost, but my home folder got reset back to the initial state it was in when i first installed
+
+#! is it an smp machine? (p4 hyperthreaded, dual cpu, anything like that) ?
+u: (<< p4 hyperthreaded smp >>) This machine is a P4 2.0GHz, not hyperthreaded or anything like that, and has a GeForce MX440. The one I have back home is a P4 3.0GHz, hyperthreaded, with a Radeon 9800. Got any pointers for improving the performance of either?
+
+#! i only get a few packages - but none of them are the nvidia drivers...
+u: (<< packages nvidia none >>) hmm, im an ati user myself, perhaps someone else knows more about nvidia's drivers
+
+#! it's like grub can't see my partition
+u: (<< partition ca grub >>) old bios? LBA enabled for drive > 137 GB ?
+
+#! for my xserver ;) that did work for me all the time, i just forgot, where to place that command
+u: (<< place forgot xserver >>)  i could be wrong but i use nvidia\-settings to configure a new xorg.conf file so that it will do all that stuff for you... nvidia\-settings is a configuration tool
+
+#! it has one vga port, and one vga like port thats about twice the length, with a convert on it to make it vga
+u: (<< port length vga >>) prob dvi to vga
+
+#! what file would you like to see in the paste bin, I've posted them all
+u: (<< posted paste bin >>) \- lspci maybe?
+
+#! can upping the refresh rate potentially damage the monitor?
+u: (<< potentially damage upping >>) yes, but not a recent one
+
+#! press <super> (Windows-key) and type driver, press enter. should present you with Additional drivers, where you can activate the proprietary drivers.
+u: (<< press drivers windows-key >>) well I tried the proprietary on Ubuntu. Problem I had, it would never remember settings after reboot \:  So for example every reboot my res would return to 800x600 or something.
+
+#! are you using the proper sync rates?
+u: (<< proper sync rates >>) yes
+
+#! you may want to see if the nvidia binarys are installed properly by running glxgears
+u: (<< properly glxgears binarys >>) glxgears runs perfectly
+
+#! you could try nvidia-glx, rather than nvidia-glx-new
+u: (<< rather nvidia-glx-new nvidia-glx >>) Thanks, I'll try ...
+
+#! the screen resolution after login is ok, but it doesn't render menu backgrounds and various other things correctly
+u: (<< render backgrounds various >>) does it do so correctly on the lesser\-used logon?
+
+#! care to take on another restricted driver challenge?
+u: (<< restricted care challenge >>) I can try... go ahead
+
+#! i can remember having read bug reports with this issue... but since I'm running a good old fashioned nvidia2-PATA system it didn't scratch me
+u: (<< scratch reports fashioned >>) this is a fresh install \- I am going to try and re\-install but create a /boot partition
+
+#! that will staft screen under that shell, not start the shell in screen
+u: (<< screen shell staft >>) I know.
+
+#!  you can also try a search for wacom in synaptic see if there is a package for it
+u: (<< search synaptic wacom >>) ok, I was thinking of doing that but I was't sure.
+
+#! I see: Section "Device" with an entry "driver" (with nv) do I need to change that?)
+u: (<< section entry nv >>) yeah, change "nv" for "nvidia"
+
+#! try system->prefs>screen resolution, that's set separately from xorg.conf
+u: (<< separately system- prefs >>) In preferences I have only 50 54 55 56 hz
+
+#! did you get any error msg during boot or something? maybe something about disk corruption
+u: (<< something msg corruption >>) no. the only error message I have recieved is with my xserver
+
+#! if i remember ,squeeze will be soported 1 year after wheezy become stable
+u: (<< soported squeeze wheezy >>) correct, and wheezy isn't coming out next month that's for sure ;
+
+#!  sorry I'm new to linux.  here:  http://paste.ubuntu.com/653543/
+u: (<< sorry new linux >>) it's in mesa\-utils IIRC
+
+#! do you see the nvidia logo flash right before X starts?
+u: (<< starts x logo >>) I used to, up until I added "nologo".
+
+#! the cmd you just asked me to run only fixes getting wine tho.
+u: (<< tho cmd fixes >>) Yes, you said there were no other errors.
+
+#! Uh. So I googled, and the google didn't know about my ATI Mobility 7000.
+u: (<< uh googled mobility >>) are you sure? http\://www.google.com/search?hl=en&q=ati+mobility+7000+ubuntu&btnG=Google+Search
+
+#! That error could cause update-manager to not function
+u: (<< update-manager cause function >>) the cmd you just asked me to run only fixes getting wine tho.
+
+#! read the factoid again: "Make sure you give us the URL for your paste"
+u: (<< us factoid url >>) sorry http\://paste.ubuntu.com/653542/
+
+#! you can write your settings to it using nvidia-settings but it needs to be ran using gksudo so it can write the file
+u: (<< using write nvidia-settings >>) and what should i do with sound touble problem?
+
+#! the curent version is for the "performance" gpu , the 173 is an older version used for the low power setting
+u: (<< version gpu curent >>) So, what you're saying is, to put Intel I'll just use the 173? Is that it then?
+
+#! because there is no way of getting your compiz cude antialiased in a different way, ok?!
+u: (<< way antialiased cude >>)  of course i understand.   what you want is to use the configuration tool to write you a new xorg.conf file so that xorg starts with your new settings.  unless you want to edit the xorg.conf file by hand
+
+#! you could boot to an older kernel to see whats different
+u: (<< whats different older >>) situation is, if i'm not able to fix it, i have to go back to vista. and i instaled ubuntu as soon my new comp get in
+
+#! not just the window manager... the whole desktop environment. But it should be the same, if you're doing it all from the terminal.
+u: (<< window whole environment >>) it would take me less time to install to edgy than to download all the upgrades
+
+#! i did everything on that site, i didnt have wine before
+u: (<< wine site didnt >>) what's not working for you?
+
+#! are you sure you showed me the whole xorg log file, it seems truncated
+u: (<< xorg showed truncated >>) that was whole xorg log file
+
+#! that was whole xorg log file
+u: (<< xorg whole log >>) and for a test, I'd suggest going back to the nv driver from nvidia; isolate the problem a bit, maybe
+
+#! so this just cleans up my xorg.conf yea? always good to keep files clean :)
+u: (<< yea clean cleans >>) ati = xgl, nvidia = aiglx
+
+#! what was that command to check 3d acceleration?
+u: (<< 3d acceleration >>) glxinfo displays a whole lot of stuff so normall it's easier to\: glxinfo | grep direct
+
+#! i have 6600gt nvidia but this will be ok for fx5200 i will pastebin my xorg.conf
+u: (<< 6600gt fx5200 >>) Here's my xorg.conf, http\://paste.ubuntu\-nl.org/15323/
+
+#! nVidia Corporation Unknown device 0400 (rev a1)
+u: (<< a1 corporation >>) what is the beginning of that line? the numbers
+
+#! if it is showing the nvidia logo, you are accelerated
+u: (<< accelerated logo >>) Sure doesn't feel like I am.
+
+#! does it list a newer version that you can activate?
+u: (<< activate newer >>) no
+
+#! ah great! well done
+u: (<< ah great >>) what command line program can i use to open the log file ?
+
+#! ah ok so you're upgrading
+u: (<< ah upgrading >>) yes .. there is fglrx in the repository
+
+#! aka i have no friggin idea :)
+u: (<< aka friggin >>) The mouse under that secondary login has gone completely nuts. It's stuck to the top of the screen, for starters.
+
+#! nvidia driver is already installed
+u: (<< already nvidia >>) nvidia\-glx ?
+
+#! i would, but i dont have an amd64 box
+u: (<< amd64 box >>) no nvidia gimpage?
+
+#! there is a approach by builddpkg, but I haven't tried it, so it's your own risk
+u: (<< approach builddpkg >>) bastidrazor\: Segmentation fault, when i run fglrxinfo
+
+#! sh ati-driver-installer-*-x86.x86_64.run --buildpkg
+u: (<< ati-driver-installer--x86.x86_64.run buildpkg >>) i'll give that a shot
+
+#! no it's a text based install cd
+u: (<< based text >>) much different than normal desktop edition?
+
+#! basically u make two screens that point to the same device
+u: (<< basically screens >>) like if i just copy and paste the Section "Screen" ?
+
+#! what is the beginning of that line? (the numbers)
+u: (<< beginning numbers >>) 01\:00.0 VGA compatible controller\:
+
+#! it has fglrx I believe,   anyone correct me if I'm wrong
+u: (<< believe fglrx >>) yep. ATI released a new driver a week or so ago
+
+#! I will be running really big resolutions
+u: (<< big resolutions >>) bu not with full aa and af
+
+#! to be sure how do i do a paste bin? that was only eror that I saw.
+u: (<< bin eror >>) Just paste everything that comes from 'sudo apt\-get update' to http\://paste.ubuntu.com and give me the url.
+
+#! the nvidia closed-source binary drivers. actually, they installed on first boot for me.
+u: (<< binary closed-source >>) so the default ones are the open source ones? These won't do Unity 3D. Although the proprietary one do do 3D when I'm using Windows XP
+
+#! if you can, you're running the closed-source binary drivers.
+u: (<< binary closed-source >>) no can't run nvidia settings since unisntalling proprietary. I can use the "Monitors" to set up res etc with the default Ubuntu drivers
+
+#! I am going to have to post the info on my tech blog
+u: (<< blog tech >>) yes great
+
+#! did you try searching synaptic's browser
+u: (<< browser searching >>) whats that?
+
+#! that's one strange bug. what card are you using?
+u: (<< bug strange >>) yes this is what I did but none of them worked to do 3D with unity
+
+#! yeah but.. I still need to upgrade from the fx5500 ;)
+u: (<< but.. fx5500 >>) link to the webshop?
+
+#! no idea about the prices in canada
+u: (<< canada prices >>) yeah but.. I still need to upgrade from the fx5500 ;
+
+#! what do I need to change in xorg.conf?
+u: (<< change xorg.conf >>) i have 6600gt nvidia but this will be ok for fx5200 i will pastebin my xorg.conf
+
+#! those changes screwed x lol
+u: (<< changes screwed >>) just removing wacom stuff? shouldn't do
+
+#! have you checked your X log?
+u: (<< checked x >>) i dont know how to get out of this irssi to check it
+
+#! 01:00.0 VGA compatible controller:
+u: (<< compatible vga >>) make sure your BusID in xorg.conf starts with 1
+
+#! try "compiz --replace"
+u: (<< compiz replace >>) the menu bars are gone \:S
+
+#! so maybe I should do that x config thing again?
+u: (<< config x >>) yes
+
+#! could you put the output of that,  the contents of /var/log/Xorg.0.log , lspci & /etc/X11/xorg.conf on a pastebin?
+u: (<< contents lspci >>) II NVIDIA0\: Setting mode "1280x1024_60" II NVIDIA0\: Setting mode "1280x1024" \- that's two lines at the end
+
+#! when I create my boot partition I am going to make it ext2
+u: (<< create ext2 >>) always a good idea, keep it small and ext2
+
+#! ctrl+alt+f1 dont seem to be doing nething for me :P
+u: (<< ctrl+alt+f1 nething >>) hmmm maybe it's something more serious then. Usually I can get into pseudo term if X isn't conf'd quite right
+
+#!   system 7 and dell make ubuntu ready laptop
+u: (<< dell ready >>) do you know anything else cool like that?
+
+#! try add BusID "PCI:01:00:00" under Devices please
+u: (<< devices busid >>) specifying the BusID did not work either \:
+
+#! are they on two seperate devices ?
+u: (<< devices seperate >>) yes
+
+#! I've done that. Anything else?
+u: (<< done else >>) do you see the nvidia logo flash right before X starts?
+
+#! download it from the package manager?
+u: (<< download manager >>) he's using nvidia drivers it seems but for whatever reason his fancy GUI stuff isn't showing so
+
+#! can you check if it has glcore dri and other stuff enabled?
+u: (<< dri glcore >>) use pastebin for your xorg.conf and ask again
+
+#! how did you install the nvidia driver?
+u: (<< driver nvidia >>) But isn't at least `glxgears` supposed to work?
+
+#! how did you install the nvidia driver?
+u: (<< driver nvidia >>) aptitiude
+
+#! nvidia driver is better than the nv driver rightz/
+u: (<< driver rightz/ >>) unlikely
+
+#! correct but nvidia's dropping support for old cards/old Xorg...
+u: (<< dropping cards/old >>) sure
+
+#! is it a dvi and vga port or two vga ports?
+u: (<< dvi vga >>) it has one vga port, and one vga like port thats about twice the length, with a convert on it to make it vga
+
+#! much different than normal desktop edition?
+u: (<< edition normal >>) yes
+
+#! are you using visual effects?
+u: (<< effects visual >>) aye.
+
+#! yes, you can enter nvidia-settings from command line
+u: (<< enter nvidia-settings >>) really thanx a lot! see you later!
+
+#! from Section "InputDevice" to EndSection, repeat for erase & cursor
+u: (<< erase inputdevice >>) can upping the refresh rate potentially damage the monitor?
+
+#! Yes, you said there were no other errors.
+u: (<< errors said >>) to be sure how do i do a paste bin? that was only eror that I saw.
+
+#! ok everything is back to normal
+u: (<< everything normal >>) you may want to see if the nvidia binarys are installed properly by running glxgears
+
+#! its faster to get to the root of the problem :)
+u: (<< faster root >>) cause I downloaded them, and somehow I lack the knowledge on how to actually USE them. it's a .run file, which I supposed I would be able to convert to something .deb using alien
+
+#! - are you using feisty fawn?
+u: (<< feisty fawn >>) in deed!
+
+#! you using the ati driver or fglrx?
+u: (<< fglrx ati >>) any ideas?
+
+#! ok... thats what i figured... *sigh*
+u: (<< figured sigh >>) i have no idea why that would happen, did you make sure it was installed right?
+
+#! do you have your home folder on its own partition?
+u: (<< folder home >>) no
+
+#! first of all is the xorg.conf that is used in the /etc/X11 folder?
+u: (<< folder xorg.conf >>) yes
+
+#! Do you know how to mount two ecryptfs folders with the same name?
+u: (<< folders ecryptfs >>) I don't see how they can have the same name
+
+#! old bios? LBA enabled for drive > 137 GB ?
+u: (<< gb lba >>) I ran an fsck on it ...
+
+#! Xlib:  extension "GLX" missing on display ":0.0".
+u: (<< glx xlib >>) thats not a question
+
+#! just type "glxinfo | grep direct" in a terminal
+u: (<< glxinfo direct >>) direct rendering\: No
+
+#! sudo killall gnome-panel
+u: (<< gnome-panel killall >>) isn't gforce nvidia?
+
+#! run grep Driver.*"nv" /etc/X11/xorg.conf
+u: (<< grep nv >>) im using driver 'nv'
+
+#!  because it doesnt work that way... but you hacked a solution... and kudos to you....
+u: (<< hacked kudos >>) hm i hacked it, i dont think so, so nobody else has a antialiased cube, thats imposibble i found this on a forum some time ago that its possible this wa, why is not maintainable, please?
+
+#! are you sure? http://www.google.com/search?hl=en&q=ati+mobility+7000+ubuntu&btnG=Google+Search
+u: (<< hlen qati+mobility+7000+ubuntu >>) ya, i'm sure. Those two forum posts are by a single guy asking for the proper driver; and no one replied
+
+#! i have no idea why that would happen, did you make sure it was installed right?
+u: (<< idea happen >>) i followed the HOWTO on the wiki... altho im sure i did something wrong, i usually do
+
+#! in the monitor section it only has two lines   Identifier      "A70"   and      Option          "DPMS"
+u: (<< identifier dpms >>) dpkg\-reconfigure xserver\-xorg
+
+#! get your chipset information before you reboot
+u: (<< information chipset >>) huh?
+
+#! ctrl + alt + F1, login, then sudo init 3, then sudo init 5
+u: (<< init f1 >>) do I need to update the md5sum?
+
+#!  tablet pc or the input device ?
+u: (<< input tablet >>) input devide, just bought a 4x5 wacom tablet.
+
+#! the ubuntu-desktop ISO i mean
+u: (<< iso ubuntu-desktop >>) my question is to obtain updates for long period than in desktop edition
+
+#! my guess is that the kernel line doesn't point to a valid kernel
+u: (<< kernel valid >>) I can boot to that kernel by booting the livecd and telling it to boot to the first hard disk
+
+#! thanks so much ... i knew it had something to do with the graphic drivers
+u: (<< knew graphic >>) /etc/fstab
+
+#! easiest is 'less'. so type 'less <logfilename>'
+u: (<< less logfilename >>) ty
+
+#! add lines 94,95,96,97,98, 106, 107,108 from mine to yours
+u: (<< lines mine >>) YAY!!! that worked!
+
+#! i followed the generic link from the german link you pasted
+u: (<< link german >>) http\://tinyurl.com/oqbv4p
+
+#!   gdm loads xserver?  are you sure about that
+u: (<< loads xserver >>) i mean you dont have a better idea either, so whats your problem with me?
+
+#! take a look at this: http://wiki.cchtml.com/index.php/Ubuntu_Edgy_Installation_Guide
+u: (<< look take >>) on the other hand, I just found out that there's a RPM package on the ATI page
+
+#! also what is the output of lspci | grep VGA?
+u: (<< lspci vga >>) yes actually i have two video cards and two monitors both video cards are NVIDIA GeForce 8600 GT
+
+#! okay, whats the output of lspci | grep VGA?
+u: (<< lspci vga >>) i get two lines "01\:00.0 VGA Compatible controller nVidia Corporation GeForce 8600 GT rev a1" and "04\:00.0 VGA Compatible controller nVidia Corporation GeForce 8600 GT rev a1"
+
+#! i believe squeeze will be supported long then lucid (i was told 13 months left for lucid earlier)
+u: (<< lucid squeeze >>) grat
+
+#! then your /boot/grub/menu.lst on the installed _system_  is malformed
+u: (<< malformed _system_ >>) how do I fix that?
+
+#! and to switch back to metacity, "metacity --replace" which is the standard gnome window decorator
+u: (<< metacity decorator >>) ok everything is back to normal
+
+#! well there IS a module in the ubuntu repository
+u: (<< module repository >>) so that should work \:
+
+#! you could try using unetbootin don't see why it wouldn't work, but never tried.
+u: (<< never unetbootin >>) not working
+
+#! yep. but you never know.
+u: (<< never yep >>) i def try tonight. thx \:
+
+#! time for a new card then.
+u: (<< new card >>) man ,this is linux ,no win
+
+#! damn, not sure what to try next
+u: (<< next damn >>) switching 1 resolution lower makes it display correctly on both display... but it should work on 1400x1050 on both screens
+
+#! that's nice, and what is that supposed to tell me?
+u: (<< nice supposed >>) dunno
+
+#! okey... open up /var/log/Xorg.log in a text-editor of your choice :)
+u: (<< okey text-editor >>) what am i looking for?
+
+#! oops, I meant driver
+u: (<< oops meant >>) nvidia I didn't highlight you past time so I'd assume you didn't see it.
+
+#! yea its a dvi, just found some pictures on google :)
+u: (<< pictures dvi >>) I've never done dvi to vga i am not sure if u need to pass extra options...I know with dvi to hdmi setup one for my 36" hdtv I had to pass extra options
+
+#! reading some posts on a webite - 1 sec.
+u: (<< posts webite >>) ok
+
+#! shops "often" have strange prices for hardware
+u: (<< prices shops >>) would you buy the 7600GS for \$220 canadian?
+
+#! search for "(EE)" (without quotes)... those are errors :)
+u: (<< quotes ee >>) \^
+
+#! - I've rebooted a dozen times since I installed my drivers.
+u: (<< rebooted dozen >>) you have not pleased the gods of xorg today, please sacrifice 3 chickens and do the chicken dance, then try again
+
+#! and what have you done so far as trying to change the resolution and screen-cloning settings?
+u: (<< resolution screen-cloning >>) mainly uninstall purge drivers reinstall, re\-run aticonfig
+
+#! what does    xrandr    in a terminal say about your resolutions
+u: (<< resolutions xrandr >>) \*0   1280 x 1024    331mm x 240mm   \*50   54   55   56
+
+#! restricted? Ya. I checked that. The only restricted driver I have is my atheros wifi.
+u: (<< restricted atheros >>) what kind of vid card ya got?
+
+#!  to be honest with you thought... 10.04 runs way better for me then 11.04
+u: (<< runs honest >>) im not surprised. from what i hear 11.04 is the worst version so far
+
+#! the file runs, it just doesn't find the source directory tree.
+u: (<< runs tree >>) hmm
+
+#! now you just need to get skydome and scale setup :-)
+u: (<< scale skydome >>) how?
+
+#! scratch that, i found linux ati drivers :)
+u: (<< scratch ati >>) I found it right as u said so too \:oP
+
+#! all you really need is to do run their installer script
+u: (<< script installer >>) are the current nvidia drivers in the ubuntu repo 9746?
+
+#! I have the second one activated right now.
+u: (<< second activated >>) the curent version is for the "performance" gpu , the 173 is an older version used for the low power setting
+
+#! once I am in - all is fine - seemingly - I just can't boot from my own MBR ...
+u: (<< seemingly mbr >>) i can remember having read bug reports with this issue... but since I'm running a good old fashioned nvidia2\-PATA system it didn't scratch me
+
+#!  this is what it shjows Xlib:  extension "GLX" missing on display ":0.0".
+u: (<< shjows xlib >>) nvidia driver ?
+
+#! always a good idea, keep it small and ext2
+u: (<< small ext2 >>) thanks for the help
+
+#! cool, arn't the drivers card specific for this?
+u: (<< specific ar >>) one sec
+
+#! specifying the BusID did not work either :(
+u: (<< specifying busid >>) then I'm out of ideas sorry
+
+#! ok, starting from top, 27 commented out.
+u: (<< starting commented >>) yes
+
+#! "sudo apt-get update" then "sudo apt-get upgrade" -- or do you mean to a new version of ubuntu?
+u: (<< sudo apt-get >>) new version
+
+#! are you sure that that driver supports using the GPU?
+u: (<< supports gpu >>) it should! \:
+
+#! under system->preferences->display
+u: (<< system- preferences- >>) no display, just monitors
+
+#! yes download tar then right click it and Extract
+u: (<< tar extract >>) I am saving the tar file, once i got it what do i do? do i click on it and it does its thing? do i have to connect hte printer to it first
+
+#! theres a tarball, so i download it and then clickl on it?
+u: (<< tarball clickl >>) download the Debian drivers here  http\://software.canon\-europe.com/products/0010647.asp
+
+#! you understand what I want, though, right?
+u: (<< though understand >>) you want every shell to start in screen instead of on its own
+
+#! no. I'll give this a go tonight. Thanks for tip
+u: (<< tip tonight >>) installs the latest proprietary nvidia\-drivers for your card.
+
+#! ok, thanks for the help :D tis much appreciated
+u: (<< tis appreciated >>) no problem
+
+#! i def try tonight. thx :)
+u: (<< tonight def >>) you're most welcome.
+
+#! what nvidia card are u using?
+u: (<< u nvidia >>) geforce fx 55600
+
+#! and ended up making it unbootable for an entirely separate reason/issue
+u: (<< unbootable reason/issue >>) so why are u concerned about getting that resolution working within the LiveCD environment, when you can't even boot your Linux installation? I guess I'm not understanding what you're attempting to do here.
+
+#! should I uninstall restricted drivers first or install over them?
+u: (<< uninstall restricted >>) and iirc you should uninstall the existing drivers and maybe even pull a ctrl\-alt\-backspace to restart the x server before installing the new ones manually
+
+#! Are you still getting the errors in update-manager, can you paste those somewhere?
+u: (<< update-manager somewhere >>) I'm going to reboot and see if I can get the errors to come up. they typically stop after running the package manager a few times. is there a way to delete the content that the package manager already downloaded but has not installed? I just want to be 100% sure it checks for all updates accordingly.
+
+#! check bots url
+u: (<< url bots >>) well something change...
+
+#!  the usual problem has to do with the videocard,  what is yours ?
+u: (<< usual videocard >>) I'm not exactly sure I'm too lazy to have to deal with this vista crap I don't want to have to go into the control panel, but on the HP website, on my model under Graphics/Audio it says that the "Graphics Subsystem Name" is Intel Graphics Media Accelerator X3100
+
+#! which version ubuntu are you running?
+u: (<< version running >>) the latest, I think. Downloaded yesterday!
+
+#! X restarts whenever i play video files
+u: (<< whenever restarts >>) gnome or beryl? & which vid card?
+
+#! If I switch from X to Alt-F1 and then come back to X, I see blank screen!
+u: (<< x alt-f1 >>) hmm
+
+#! and restarted x after install ?
+u: (<< x restarted >>)  yes i restarted x
+
+#! http://paste.ubuntu-nl.org/19323/, this is the xorg,conf
+u: (<< xorg conf >>) \- are you using feisty fawn?
+
+#! and what monitor is set in xorg.conf?
+u: (<< xorg.conf monitor >>) first of all is the xorg.conf that is used in the /etc/X11 folder?
+
+#!  yeah.. that is a great maintainable way..... good luck with it
+u: (<< yeah.. maintainable >>) at least it works ;
+
+#! glxinfo |grep direct
+u: (<< |grep glxinfo >>) direct redering\: yes
+
+#! whats the output of Xorg -scanpci?
+u: (<< -scanpci >>) i get "fatal server error Unrecognized option\: \-scanpci"
+
+#! only 0 line is 1280x1024
+u: (<< 1280x1024 >>) could you put the output of that,  the contents of /var/log/Xorg.0.log , lspci & /etc/X11/xorg.conf on a pastebin?
+
+#! But isn't at least `glxgears` supposed to work?
+u: (<< glxgears >>) how did you install the nvidia driver?
+
+#! you have graphics acceleration enabled correctly?
+u: (<< acceleration >>) i'm not sure, how do i tell?
+
+#!  why doesn't it say that in Additional Drivers?
+u: (<< additional >>) why doesn't it say what? and I told you how to check. have you?
+
+#! You need to adjust it to your settings
+u: (<< adjust >>) ah, i think i get the idea
+
+#! agp card you are looking for, right?
+u: (<< agp >>) no
+
+#! I can try... go ahead
+u: (<< ahead >>) ok, I'm on hardy 8.04.1, ATI radeon 9600xt, ultimate goal\: 3d rendering with ati drivers in dual\-head big desktop mode and some compiz functions enabled
+
+#! ok, go ahead.
+u: (<< ahead >>) ok, thanks for the help \:D tis much appreciated
+
+#! i think i already had them thanks :)
+u: (<< already >>) then just continue witht he rest of the nvidia guide, if you get your nvidia card working then wow should run in the newer wines like you isntalled with no issues, good luck
+
+#! you tried those already?
+u: (<< already >>) which of them all? I can't find the one for the ip1900
+
+#! thanks for your help, anyways. :)
+u: (<< anyways >>) that will staft screen under that shell, not start the shell in screen
+
+#! ati or nvidia?
+u: (<< ati >>) ATI
+
+#! I cannot log in as any user besides root
+u: (<< besides >>) do you have your home folder on its own partition?
+
+#! there's no better way?
+u: (<< better >>) I'm not sure if there is a better way to do that, but I only use screen when I'm running a program in the shell that I will be keeping open for a long time, like irssi or emacs
+
+#! why don't you use the binary drivers?
+u: (<< binary >>) you mean NVIDIA? what binary drivers?
+
+#! you mean NVIDIA? what binary drivers?
+u: (<< binary >>) the nvidia closed\-source binary drivers. actually, they installed on first boot for me.
+
+#! have you installed binry driver from nvidia?
+u: (<< binry >>) yep. Need help?
+
+#! blade:  http://paste.ubuntu.com/653547/
+u: (<< blade >>) run it again. from the video card side it should work now fine. see lines 4\-6 in your paste
+
+#! can you brows the home folders of the users of the machine?
+u: (<< brows >>) yes I can. is there anything in particular I should be looking for, in those folders or in the logs
+
+#! once in the browser, click search 
+u: (<< browser >>) ok.
+
+#! would you buy the 7600GS for $220 canadian?
+u: (<< canadian >>) no idea about the prices in canada
+
+#! well something change...
+u: (<< change >>) you can try glxgears in a terminal to see if theyre ok
+
+#! I'm in linux now, cheers
+u: (<< cheers >>) how?
+
+#! did you install   cnijfilter-common_3.00-1_i386.deb ?
+u: (<< cnijfilter-common_3.00-1_i386.deb >>) I dont know i startd doing so then it went into not responding and i dont know if it ccrashed orit did, i am doing it again now but again it's not responding
+
+#! i read that but I coudn't understand what to do exactly
+u: (<< coud >>) have you tried the driver from nvidia, or did you use the new restricted driver utility that comes with fiesty fawn?
+
+#! i just tried ctrl+alt+f2 and get into terminal :)
+u: (<< ctrl+alt+f2 >>) ah great! well done
+
+#! how do i install the deb files?
+u: (<< deb >>) right click and choose gdebi installer
+
+#! running defauls should do
+u: (<< defauls >>) can you send me your xorg.conf
+
+#! that depends on what your drive is
+u: (<< depends >>) what do you mean, "drive"?
+
+#! what do you mean, "drive"?
+u: (<< drive >>) oops, I meant driver
+
+#! i think these drivers will work   http://software.canon-europe.com/download.asp
+u: (<< drivers >>) I'm on hardy
+
+#! prob dvi to vga
+u: (<< dvi >>) yea its a dvi, just found some pictures on google \:
+
+#! yeah thats what i did and the effects were on again
+u: (<< effects >>) and to switch back to metacity, "metacity \-\-replace" which is the standard gnome window decorator
+
+#! anything else?
+u: (<< else >>) \- what issues are you having with the driver?
+
+#! which window manager are you using, emerald?
+u: (<< emerald >>) i dont know.. u just installed the nvidia official driver and the effects were on
+
+#! true enuf
+u: (<< enuf >>) run grep Driver.\*"nv" /etc/X11/xorg.conf
+
+#! has it ever worked?
+u: (<< ever >>) I haven't tried on this machine.
+
+#!  what are you exactly trying to do that?
+u: (<< exactly >>) i try to load the command nvidia\-settings \-l before xserver starts, so i have texture sharpening,antialiasing and other stuff
+
+#! Sure doesn't feel like I am.
+u: (<< feel >>) what do you mean?
+
+#! did that fix the problem?
+u: (<< fix >>) \- sorry was answering the doorbell... just about to sudo what you suggested...just a minute...
+
+#! I'm running a GeForce Go5200, don't know if they have anything to do with each other...
+u: (<< geforce >>) have you installed binry driver from nvidia?
+
+#! oh, but that's german
+u: (<< german >>) no worriesd \- I /en it
+
+#! want the german link ?
+u: (<< german >>) yeah i'm sure google will translate it for me
+
+#! isn't gforce nvidia?
+u: (<< gforce >>) could be, same solution
+
+#! glxgears runs perfectly
+u: (<< glxgears >>) nice
+
+#! ok here you go http://pastebin.com/f6af9a923
+u: (<< go >>) your video card is connected and seated correctly right?
+
+#! what graphics card do you have?
+u: (<< graphics >>) Geforece 4 ti4400, bare in mind that the nv option i used in previous xserver config worked fine for breezy
+
+#! what graphics card are you using?
+u: (<< graphics >>) nvidia Geforce FX 5200
+
+#! - I just wish I had a clue what the hell it was you helped me do so I could repeat it ha ha ha ha. But thanks for your assistance anyway.
+u: (<< ha >>) before it was using the noveau driver, the open source version
+
+#! my X configure program is hanging
+u: (<< hanging >>) hanging?
+
+#!  what card do you hav?
+u: (<< hav >>) nvidia nv18, my drivers are all installed, the sound goes normally but I can't see the menus, when I hit enter like crazy I can see the game "ppracer" but I can see no menus
+
+#! hehehe - the synaptic browser worked.
+u: (<< hehehe >>) there ya go \:D
+
+#! the wifi wiki isnt helping
+u: (<< helping >>) have you searched for "prism" on the wiki or forums?
+
+#! not if you kill him/her first
+u: (<< him/her >>) or i fix my problem and there is no need for killin
+
+#! never hurts to try , and it's free
+u: (<< hurts >>) yeah, good point. I'll try that in a bit. Thanks for your help.
+
+#! In preferences I have only 50 54 55 56 hz
+u: (<< hz >>) that's strange.  a sec
+
+#! then I'm out of ideas sorry
+u: (<< ideas >>) thank you for your help.... i am still trying some stuff in google... i am wondering if I have to have the dual monitors setup correctly before nvidia drivers work... in otherwords once activated, it may find the other cards causing a conflict to where I have to setup the whole xorg file for both cards before anything works
+
+#! If you're talking about the ignores, those are normal.
+u: (<< ignores >>) it says ignore in sudo apt\-get update but in the package manager it reports as failed. Failed and ignored usually mean very different things.
+
+#! including what your prob is
+u: (<< including >>) Xlib\:  extension "GLX" missing on display "\:0.0".
+
+#! Ok; and once I find the information, what should I do?
+u: (<< information >>) Let's suppose your video card is called a "marmelade", you should then search the web for "marmelade ubuntu"
+
+#! i was installing new system
+u: (<< installing >>) I am going to have to post the info on my tech blog
+
+#! Can you access the internet from that computer?
+u: (<< internet >>) yes sir, im on it now.
+
+#! - thanks... my firefox isny broken
+u: (<< isny >>) you can build them
+
+#! - what issues are you having with the driver?
+u: (<< issues >>) is not the driver or not that I know the thing is I can't see no menus when I start 3d games like tremulous or ppracer,
+
+#! or i fix my problem and there is no need for killin
+u: (<< killin >>) or run\: sudo apt\-get install pastebinit; dmesg | tail |  pastebinit
+
+#! geforce 6800 by leadtek
+u: (<< leadtek >>) and do you have wow on another partition like a windows install of it?
+
+#! at least it works ;)
+u: (<< least >>)  it will work till the next upgrade to gdm...   gdm is a the gnome display manager... not an XServer... .ignorance is bliss
+
+#! does it do so correctly on the lesser-used logon?
+u: (<< lesser-used >>) the rendering issue is on both users, but the reset to clone only exists on primary user
+
+#! that seems more likely
+u: (<< likely >>) thanks for your help, anyways. \:
+
+#! do you see the other lines that you want?
+u: (<< lines >>) only 0 line is 1280x1024
+
+#! you're doing this from a livecd boot?
+u: (<< livecd >>) at the moment, yeah...
+
+#! does a livecd work?
+u: (<< livecd >>) sorry had a connection problem...yes the livecd works and I can reinstall 8.10 fine and it will boot fine... it is only when I try to enable the restricted graphics driver that I get this issue
+
+#!  unless it goes over like 10? lmao
+u: (<< lmao >>) if your on gnome leave the system monitor running so you can keep an eye on the cpu usage for a while
+
+#! How to find out? lspci?
+u: (<< lspci >>) yes
+
+#! - lspci maybe?
+u: (<< lspci >>) http\://paste.ubuntu\-nl.org/19319/
+
+#! best of luck.
+u: (<< luck >>) The thing is, I have gotten to work before, just some where down the line with updates things started acting a little funny, now its becoming a problem and its time to fix it
+
+#! you still there m8 ?
+u: (<< m8 >>) sorta, whats up?
+
+#! I haven't tried on this machine.
+u: (<< machine >>) how did you install the nvidia driver?
+
+#! the machine should still boot
+u: (<< machine >>) if I make the nvidia the primary, it gets to grub, spits out a few lines, then POSTS, then enters grub, spits out a few lines, then POSTS, etc
+
+#! you'll probably have to start screen manually
+u: (<< manually >>) there's no better way?
+
+#! Let's suppose your video card is called a "marmelade", you should then search the web for "marmelade ubuntu"
+u: (<< marmelade >>) Ok Thanks.
+
+#! do I need to update the md5sum?
+u: (<< md5sum >>) not sure on that one
+
+#! it's in mesa-utils IIRC
+u: (<< mesa-utils >>) sorry i'm not sure what that means
+
+#! also add line 94 from mine
+u: (<< mine >>) ok, starting from top, 27 commented out.
+
+#! what model of nvidia card do you have?
+u: (<< model >>) How to find out? lspci?
+
+#! have you tried with different monitors?
+u: (<< monitors >>) I only have two at my disposal \:/
+
+#! no display, just monitors
+u: (<< monitors >>) i dont understand
+
+#! I don't see how they can have the same name
+u: (<< name >>) Simple, one is /home/r000t, the other is /media/150/home/r000t
+
+#! isn't this one newer? http://support.amd.com/us/gpudownload/linux/Pages/radeon_linux.aspx
+u: (<< newer >>) just down in that page, and don't forget a sudo chmod +x for it make executable
+
+#! lol, nice.
+u: (<< nice >>) how so?
+
+#! I used to, up until I added "nologo".
+u: (<< nologo >>) if it is showing the nvidia logo, you are accelerated
+
+#! before it was using the noveau driver, the open source version
+u: (<< noveau >>) \- pspci \-k\: Kernel modules\: via\-rhine
+
+#! - guess it needs a reboot again?? Doing that now..
+u: (<< now.. >>) dunno, can try activating first
+
+#! im using driver 'nv'
+u: (<< nv >>) there's your problem.
+
+#! nvidia driver ?
+u: (<< nvidia >>) nvidia driver is already installed
+
+#! I have the nvidia driver installed.
+u: (<< nvidia >>) did you edit your xorg.conf after installing nvidia driver
+
+#! nvidia card?
+u: (<< nvidia >>) yes gefroce 4
+
+#! just tell me which nvidia card?
+u: (<< nvidia >>) its onboard ... let me check
+
+#! have you tried "sudo apt-get install nvidia-current"?
+u: (<< nvidia-current >>) no. I'll give this a go tonight. Thanks for tip
+
+#! installs the latest proprietary nvidia-drivers for your card.
+u: (<< nvidia-drivers >>) but wouldn't update manager install any updated drivers?
+
+#! should i try nvidia-experimental-304?
+u: (<< nvidia-experimental-304 >>) does the non\-experimental work?
+
+#! Do you know what "nvidia-kernel-common" is for?
+u: (<< nvidia-kernel-common >>) yes, don't remove it \:
+
+#! are you using nvidia-settings to change it?
+u: (<< nvidia-settings >>) >> yea
+
+#! why don't you try run sudo nvidia-xconfig
+u: (<< nvidia-xconfig >>) i got the exact same response after running sudo nvidia\-xconfig both using startx first and rebooting kdm still did not boot so i logged in and tried startx and still got "EE No devices detected" "Fatal server error\: no screens found"
+
+#! did you download drivers from nvidias site
+u: (<< nvidias >>) yes
+
+#! but it should offload the damage to my GPU.
+u: (<< offload >>) that depends on what your drive is
+
+#! can you disable the onboard in the bios ?
+u: (<< onboard >>) I can make it not the primary, but that makes it enter a reboot loop where it does not even get past GRUB
+
+#! on opening wow that is
+u: (<< opening >>) you have graphics acceleration enabled correctly?
+
+#! the 6200 card is way outdated
+u: (<< outdated >>) Why is there such a small difference in price?
+
+#! sorry ;p
+u: (<< p >>) restarting gdm now
+
+#! you can install the pastebinit program and then do cat /path/to/log | pastebinit
+u: (<< pastebinit >>) ok here you go http\://pastebin.com/f6af9a923
+
+#! no pci-e support :)
+u: (<< pci-e >>) you just said that you was after a pci\-e
+
+#! you just said that you was after a pci-e
+u: (<< pci-e >>) I said no to pci\-e.. I only have AGP support.. thats why I was talking about the 7600GS
+
+#! that works perfectly
+u: (<< perfectly >>) try Hansel comment
+
+#! can I send you a pm?
+u: (<< pm >>) man, i can not see them because i'm not registered, but i'll pastebin the xorg,conf file
+
+#! I'll have to poke around for preferences
+u: (<< poke >>) oh ya, it also doesn't render the background of menus correctly
+
+#! should I get back with the previous version?
+u: (<< previous >>) \- have you read this?  http\://kmandla.wordpress.com/2007/03/18/nvidia\-9xxx\-driver\-and\-geforce4\-mx\-trouble/
+
+#! Why is there such a small difference in price?
+u: (<< price >>) ask the shop
+
+#! that would probably do it
+u: (<< probably >>) but it should offload the damage to my GPU.
+
+#! no, in your case "this is proprietary hardware" that is the issue
+u: (<< proprietary >>) yes but in 10.04 like in squeeze all run fine
+
+#! thats not a question
+u: (<< question >>) i get an error when i do glxinfo
+
+#! ATI Radeon
+u: (<< radeon >>) default drivers or did you activate the hardware drivers
+
+#! what filesystem on the raid?
+u: (<< raid >>) ext4
+
+#! - have you read this?  http://kmandla.wordpress.com/2007/03/18/nvidia-9xxx-driver-and-geforce4-mx-trouble/
+u: (<< read >>) i read that but I coudn't understand what to do exactly
+
+#! actually a reboot is better
+u: (<< reboot >>) Thank you. `glxgears` works now.
+
+#! it will be fine after a reboot
+u: (<< reboot >>) \- I've rebooted a dozen times since I installed my drivers.
+
+#! yes, but not a recent one
+u: (<< recent >>) it was one of the first tfts really old ;
+
+#! direct redering: yes
+u: (<< redering >>) fgl_glxgears
+
+#! the ati site redirected me to dell
+u: (<< redirected >>) 32 or 64 ?
+
+#! yes, don't remove it :)
+u: (<< remove >>) Ok, I replaced nvidia\-glx\-new by nvidia\-glx. How to activate it? Is restarting X enough?
+
+#! direct rendering: No
+u: (<< rendering >>) well then that was your issue, nothing to do with wine and wow probably
+
+#! ignore my reply then
+u: (<< reply >>) new version 11.04 to 11.10
+
+#! repos. Always trust the repos.
+u: (<< repos >>) true enuf
+
+#! I don't know where rest files are
+u: (<< rest >>) your xorg.conf, it has an error in Virtual in 24bit display
+
+#! thanks, restarting
+u: (<< restarting >>) So, 0 and 1 now?
+
+#! right-o. I'm looking in the forum anyway!
+u: (<< right-o >>) which version ubuntu are you running?
+
+#! one sec
+u: (<< sec >>) scratch that, i found linux ati drivers \:
+
+#! second, looking
+u: (<< second >>) cheers!
+
+#! at driver in card section
+u: (<< section >>) I see\: Section "Device" with an entry "driver" with nv do I need to change that?
+
+#! can you send me your xorg.conf
+u: (<< send >>) nope, it would be useless for you
+
+#! type sudo sh /home/dcarpenter/NVIDIA-Linux-x86-1.0-6111-pkg1.run
+u: (<< sh >>) hehehe \- the synaptic browser worked.
+
+#! ask the shop
+u: (<< shop >>) I assumed there was a high demand for that specific card because of some sort of feature thats a must have..
+
+#! i'll give that a shot
+u: (<< shot >>) then you get some packets build, and fglrx\-modaliases , fglrx  could fit then
+
+#! Simple, one is /home/r000t, the other is /media/150/home/r000t
+u: (<< simple >>) are they on two seperate devices ?
+
+#! yes sir, im on it now.
+u: (<< sir >>) Can you pastebin the errors from 'sudo apt\-get update' ?
+
+#! sorta, whats up?
+u: (<< sorta >>) i create a movie with my mobile, to show you exactly the problem... its only in 3gp format, and i cant convert it atm \:S http\://pc.rvgate.nl/nvidia_twinview.3gp
+
+#! yeah, sounds like it :)
+u: (<< sounds >>) lol
+
+#! google maybe for specs
+u: (<< specs >>) yup its maxed haha
+
+#! type the system specs here
+u: (<< specs >>) I don't think its the system specs per se .. I have the feeling like something is messed up with the graphics side of things .. like the rendering or something ... in Jaunty it was a lot smoother
+
+#! its spinning away fine
+u: (<< spinning >>) so what's the problem?
+
+#! yes but in 10.04 (like in squeeze) all run fine
+u: (<< squeeze >>) correct but nvidia's dropping support for old cards/old Xorg...
+
+#! sorry for my stupidity
+u: (<< stupidity >>) its a config file for the x server
+
+#! SU and thank You
+u: (<< su >>) that did it?
+
+#! when you say it failed what are the symptoms?
+u: (<< symptoms >>) i cant remember the whole log, is there a way to retreive it ?
+
+#! or try to guess with tab-complete in terminal
+u: (<< tab-complete >>) tried autocomplete, /usr/bin/ati doesn't exist. Maybe I will find it after the manual install \:
+
+#! i'm not sure, how do i tell?
+u: (<< tell >>) just type "glxinfo | grep direct" in a terminal
+
+#! it was one of the first tfts really old ;)
+u: (<< tfts >>) google maybe for specs
+
+#! ok thank's for your help.
+u: (<< thank >>) did you download drivers from nvidias site
+
+#! ok, thanks for you help
+u: (<< thanks >>) or try to guess with tab\-complete in terminal
+
+#! ok thanks :)
+u: (<< thanks >>) is it a dvi and vga port or two vga ports?
+
+#! same thing, exactly the same thing
+u: (<< thing >>) damn, not sure what to try next
+
+#! ok, I was thinking of doing that but I was't sure.
+u: (<< thinking >>) never hurts to try , and it's free
+
+#! anyone idea on the problems with the update manager tho?
+u: (<< tho >>) That error could cause update\-manager to not function
+
+#! don't threaten , that won't help you
+u: (<< threaten >>) not theatning just stating the facts and trying to pass a little of the huge frustration I'm feeling right now
+
+#! hold tight
+u: (<< tight >>) thanks
+
+#! why doesn't it say what? and I told you how to check. have you?
+u: (<< told >>)  in Additional Drivers it says "No proprietary drivers are in use on this system."  And the NVIDIA accelerated graphics drivers has a green dot next to it that says "This driver is activated but not currently in use."
+
+#! and what should i do with sound touble problem?
+u: (<< touble >>) not sure, could log a bug. i'd try an older kernel see if it works ok
+
+#! yeah i'm sure google will translate it for me
+u: (<< translate >>) http\://wiki.ubuntuusers.de/grafikkarten/ati/fglrx/Manuelle_Treiberinstallation
+
+#! thanks, trying it now
+u: (<< trying >>) good luck, and yes, try the newer one
+
+#! ubotu is a bot :)
+u: (<< ubotu >>) really? \:|
+
+#! i dont understand
+u: (<< understand >>) system\-preferences\-monitor
+
+#! how are you trying to unencypt them
+u: (<< unencypt >>) the only thing that will work is going to the .Private directory in the slave drive and running ecryptfs\-recvoer\-private... My current folder mounts when I log in
+
+#! and this for uninstallation https://help.ubuntu.com/community/NvidiaManual#Uninstalling_the_Driver
+u: (<< uninstallation >>) that went through without a hitch, apart from some manual directory
+
+#! Now does update-manager work?
+u: (<< update-manager >>) it appears to but if I watch the servers it hit it still appears to fail to contact some of the servers.
+
+#! nope, it would be useless for you
+u: (<< useless >>) can you check if it has glcore dri and other stuff enabled?
+
+#! new version
+u: (<< version >>) ignore my reply then
+
+#! new version (11.04 to 11.10)
+u: (<< version >>) no it's a text based install cd
+
+#! what version of ubuntu
+u: (<< version >>) 8.04
+
+#! which driver version
+u: (<< version >>) don't know
+
+#! lspci | grep VGA
+u: (<< vga >>) nVidia Corporation Unknown device 0400 rev a1
+
+#! what video card do you have?
+u: (<< video >>) geforce 6800 by leadtek
+
+#! vulgaritys aren't helping fix your firefox
+u: (<< vulgaritys >>) \- thanks... my firefox isny broken
+
+#! just removing wacom stuff? shouldn't do
+u: (<< wacom >>) ooooooooh i didnt remove the server layout part, could that have stopped it from finding screens tho?
+
+#! http://www.staples.ca/ENG/Catalog/cat_sku.asp?CatIds=83%2C88%2C3157,306&webid=675071&affixedcode=WW
+u: (<< webid675071 >>) dosn't realy matter for agp cards
+
+#! thanks, i'll give it a whirl.
+u: (<< whirl >>) once in the browser, click search 
+
+#! thats very wierd
+u: (<< wierd >>) thats how i thought about it \:P
+
+#! man ,this is linux ,no win
+u: (<< win >>) no, in your case "this is proprietary hardware" that is the issue
+
+#! *0   1280 x 1024   ( 331mm x 240mm )  *50   54   55   56
+u: (<< x >>) that's the only line!?
+
+#! can i see your xorg.conf
+u: (<< xorg.conf >>) kk one sec
+
+#! Here's my xorg.conf, http://paste.ubuntu-nl.org/15323/
+u: (<< xorg.conf >>) http\://paste.ubuntu\-nl.org/15324/ mine
+
+#! is your xorg.conf different then before?
+u: (<< xorg.conf >>) no but that is what i think i did before i have also tried dpkg\-reconfigure \-phigh xerver\-xorg and i tried downloading the nvidia driver from nvidia and then sudo sh NVIDIA\-Linux\-x86\-180.22\-pkg1.run
+
+#! also can we have your xorg.log please
+u: (<< xorg.log >>) i don't know of a way to send the log to pastebin wtihout typing it all out manually which is what i did for xorg...
+
+#! dpkg-reconfigure xserver-xorg
+u: (<< xserver-xorg >>) and I assume a sudo before that?
+
+#! YAY!!! that worked!
+u: (<< yay >>) cool \:
+
+#! you can give zsnes a shot. :D
+u: (<< zsnes >>) \: i have a intel card
+
