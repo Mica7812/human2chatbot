@@ -2,6 +2,23 @@
 
 Ce dépôt comprend le code utilisé dans l'expérience TER Human2Chatbot (voir article.pdf). Les différents scripts permettent de générer automatiquement des règles [ChatScript](https://github.com/bwilcox-1234/ChatScript) autour d'un thème précis (par exemple *nvidia*) à partir du [corpus Ubuntu](http://dataset.cs.mcgill.ca/ubuntu-corpus-1.0/).
 
+## Prérequis
+
+* Python 3 et librairies :
+  * pandas
+  * pyenchant
+  * nltk
+  * gensim
+
+Installation :
+
+```
+pip3 install pandas pyenchant nltk
+```
+Instructions dans les sections suivantes :
+* Chatscript
+* Corpus Ubuntu
+
 ## Étape 1 : Télécharger et installer ChatScript
 
 Pour installer ChatScript il faut préalablement télécharger le dépot github.
